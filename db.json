@@ -1,0 +1,35 @@
+{
+    "experiences": [
+        {
+            "title": "exp1",
+            "location": "location",
+            "country": "country",
+            "startDate": "Date",
+            "endDate": "Date",
+            "description": "lorem ipsum"
+        }
+    ],
+    "formations": [
+        {
+            "title": "formation1",
+            "location": "location",
+            "country": "Switzerland",
+            "startDate": "Date",
+            "endDate": "Date",
+            "description": "lorem ipsum"
+        }
+    ],
+    "projects": [
+        {
+            "title": "formation1",
+            "creationDate": "Date",
+            "description": "lorem ipsum",
+            "images": [
+                "img1",
+                "img2",
+                "img3",
+                "img4"
+            ]
+        }
+    ]
+}
