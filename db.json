@@ -1,4 +1,21 @@
 {
+    "owner": {
+        "name": "Damian B.",
+        "country": "Switzerland",
+        "image": "./assets/portrait.png",
+        "socialUrls": [
+            {
+                "name": "github",
+                "icon": "fa-brands fa-github-alt",
+                "url": "https://github.com/eldado21"
+            },
+            {
+                "name": "linkedin",
+                "icon": "fa-brands fa-linkedin",
+                "url": "https://www.linkedin.com/in/damian-boquete/"
+            }
+        ]
+    },
     "experiences": [
         {
             "title": "exp1",
@@ -21,7 +38,7 @@
     ],
     "projects": [
         {
-            "title": "formation1",
+            "title": "project1",
             "creationDate": "Date",
             "description": "lorem ipsum",
             "images": [

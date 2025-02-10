@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+#card-position {
+    position: relative;
+    width: 150px;
+    margin-right: 16px;
+}
+
+#card-position img {
+    width: 100%;
+}
+
+#card {
+    position: absolute;
+    width: 100%;
+    height: calc(100% + var(--card-overflow-y));
+    border: 1px solid black;
+}
+
+#informations {
+    width: 50vw;
+    margin-left: 16px;
+}

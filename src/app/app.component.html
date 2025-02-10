@@ -1,0 +1,26 @@
+<app-owner-header [owner]="owner">
+</app-owner-header>
+
+
+<main>
+    <section class="main-section">
+        <h1>Formations</h1>
+        <app-formation *ngFor="let formation of formations" [formation]="formation"></app-formation>
+    </section>
+
+    <section class="main-section">
+        <h1>Experiences</h1>
+        <app-experience *ngFor="let experience of experiences" [experience]="experience"></app-experience>
+    </section>
+
+    <section class="main-section">
+        <h1>Projects</h1>
+        <app-project *ngFor="let project of projects" [project]="project"></app-project>
+    </section>
+</main>
+
+
+<footer>
+    <h1>\< / \>
+    </h1>
+</footer>

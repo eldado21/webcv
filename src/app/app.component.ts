@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 // import { RouterOutlet } from '@angular/router';
-import { ExperienceService } from './services/experience.service';
+import { ContentService } from './services/content.service';
 import { Experience } from './interfaces/experience';
 import { ExperienceComponent } from './experience/experience.component';
 import { FormationComponent } from './formation/formation.component';
@@ -8,76 +8,43 @@ import { ProjectComponent } from './project/project.component';
 import { CommonModule } from '@angular/common';
 import { Formation } from './interfaces/formation';
 import { Project } from './interfaces/project';
-import { FormationService } from './services/formation.service';
-import { ProjectService } from './services/project.service';
+import { OwnerHeaderComponent } from "./owner-header/owner-header.component";
+import { Owner } from './interfaces/owner';
 
 
 @Component({
   selector: 'app-root',
-
-  imports: [CommonModule, ExperienceComponent, FormationComponent, ProjectComponent],
-  template: `
-  <header>
-    <img src="" alt="">
-    <h1>\< Damian Boquete Costa \></h1>
-    <div>
-      <p>somewhere</p>
-      <p>linkedin</p>
-      <p>github</p>
-      <p>email</p>
-      <p>tel</p>
-    </div>
-  </header>
-  <body>
-    <section>
-      <h1>Formations</h1>
-      <app-formation
-      *ngFor="let formation of formations"
-      [formation]="formation"
-      ></app-formation>
-    </section>
-    <section>
-      <h1>Experiences</h1>
-      <app-experience
-      *ngFor="let experience of experiences"
-      [experience]="experience"
-      ></app-experience>
-    </section>
-    <section>
-      <h1>Projects</h1>
-      <app-project
-      *ngFor="let project of projects"
-      [project]="project"
-      ></app-project>
-    </section>
-  </body>
-  <footer>
-    <h1>\< / \></h1>
-  </footer>
-  `,
+  imports: [
+    CommonModule,
+    ExperienceComponent,
+    FormationComponent,
+    ProjectComponent,
+    OwnerHeaderComponent
+  ],
+  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 
 
 export class AppComponent {
-  experienceService: ExperienceService = inject(ExperienceService);
-  formationService: FormationService = inject(FormationService);
-  projectService: ProjectService = inject(ProjectService);
+  contentService: ContentService = inject(ContentService);
 
+  owner!: Owner;
   experiences: Experience[] = [];
   formations: Formation[] = [];
   projects: Project[] = [];
 
   constructor() {
-    this.experienceService.getAllExperiences()
+    this.contentService.getContent("owner")
+      .then((owner: Owner) => this.owner = owner);
+
+    this.contentService.getContent("experiences")
       .then((experiences: Experience[]) => this.experiences = experiences);
 
-    this.formationService.getAllFormations()
+    this.contentService.getContent("formations")
       .then((formations: Formation[]) => this.formations = formations);
 
-    this.projectService.getAllProjects()
+    this.contentService.getContent("projects")
       .then((projects: Project[]) => this.projects = projects);
-
-      console.log(this.projects);
   }
 }
