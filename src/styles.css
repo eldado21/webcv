@@ -1,8 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
     --card-overflow-y: 64px;
+    --primary-color: #76ABAE;
+    --secondary-color: #222831;
+    --tertiary-color: #31363F;
+    --text-color: white;
     /* --mobile-size: 768px; */
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* get map in dark mode */
+/* credit: https://codepen.io/Gre-Van/pen/JoPwjoX */
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+    /* animation: rot 1s linear infinite; */
+}
+
+/* Alexis's deviances */
+/* @keyframes rot {
+    0% {filter: invert(100%) hue-rotate(0deg) brightness(95%) contrast(90%)};
+    100% {filter: invert(100%) hue-rotate(360deg) brightness(95%) contrast(90%)};
+} */
+
+.leaflet-pane.leaflet-shadow-pane {
+    display: none;
+}

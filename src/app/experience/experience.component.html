@@ -1,0 +1,12 @@
+<article class="container">
+    <div class="map-container">
+        <app-map 
+        [id]="this.experience.id"
+        [latlng]="this.experience.latlng"></app-map>
+    </div>
+    <div class="details">
+        <h3>{{experience.title}}</h3>
+        <p>{{experience.startDate}} - {{experience.endDate}}</p>
+        <p>{{experience.description}}</p>
+    </div>
+</article>

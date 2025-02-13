@@ -1,19 +1,32 @@
 main {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-
-    background-color: aquamarine;
-    padding-left: 64px;
+    justify-content: space-between;
     padding-top: calc(var(--card-overflow-y) + 16px);
 
 }
 
 .main-section {
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
     main {
         padding-left: 16px;
     }
+}
+
+/* ---FOOTER--- */
+
+footer {
+}
+
+#footer-content {
 }

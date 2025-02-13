@@ -3,26 +3,48 @@ header {
     flex-direction: row;
     justify-content: center;
     padding-top: 32px;
+    color: black;
+    background-color: var(--primary-color);
 }
+
+#header-informations {
+    width: 50vw;
+    margin-left: 16px;
+}
+
+#social-urls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    height: 64px;
+}
+
+.social-url {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+/* ---CARD--- */
 
 #card-position {
     position: relative;
-    width: 150px;
+    width: 180px;
     margin-right: 16px;
 }
 
 #card-position img {
-    width: 100%;
+    width: 90%;
+    margin: 5%;
+    border-radius: 4px;
 }
 
 #card {
     position: absolute;
     width: 100%;
     height: calc(100% + var(--card-overflow-y));
-    border: 1px solid black;
-}
-
-#informations {
-    width: 50vw;
-    margin-left: 16px;
+    border-radius: 8px;
+    background-color: var(--tertiary-color);
+    transform: skew();
 }

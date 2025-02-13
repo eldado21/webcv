@@ -14,22 +14,51 @@
                 "icon": "fa-brands fa-linkedin",
                 "url": "https://www.linkedin.com/in/damian-boquete/"
             }
+
         ]
     },
     "experiences": [
         {
-            "title": "exp1",
-            "location": "location",
-            "country": "country",
-            "startDate": "Date",
-            "endDate": "Date",
-            "description": "lorem ipsum"
+            "id": 1,
+            "title": "Developpeur logiciel & assistant pédagogique",
+            "at": "HEPIA",
+            "atUrl": "https://www.hesge.ch/hepia/",
+            "latlng": [46.2072017,6.1414867],
+            "country": "Suisse",
+            "startDate": "Novembre 2024",
+            "endDate": "Maintenant",
+            "description": "Chargé de développement et optimisation d'algorithmes de Machine Learning. Conception d'interfaces utilisateur facilitant la configuration de programmes. Rédaction de papiers scientifiques. Assistance et suivi d'étudiants."
+        },
+        {
+            "id": 2,
+            "title": "Webmaster & assistant informatique",
+            "at": "Amivie",
+            "atUrl": "",
+            "latlng": [46.204519704052466, 6.138575100420967],
+            "country": "Suisse",
+            "startDate": "Juin 2020",
+            "endDate": "Juillet 2020",
+            "description": "Stagiaire webmaster pour le site www.amivie.ch, gestionnaire de contacts et formateur pour le PAT concernant divers outils (kanban, interfaces Infomaniak entre autres)."
+        },
+        {
+            "id": 3,
+            "title": "Developpeur UI",
+            "at": "Khéops Technologies SA",
+            "atUrl": "",
+            "latlng": [46.204519704052466, 6.138575100420967],
+            "country": "Suisse",
+            "startDate": "Août 2019",
+            "endDate": "Octobre 2019",
+            "description": "Projet de mandat encadré par l'ESIG. Réalisation d'une interface graphique facilitant la configuration d'appareils médicaux dédiés à la collecte de données."
         }
     ],
     "formations": [
         {
+            "id": 1,
             "title": "formation1",
-            "location": "location",
+            "at": "HEPIA",
+            "atUrl": "https://www.hesge.ch/hepia/",
+            "latlng": [46.204519704052466, 6.138575100420967],
             "country": "Switzerland",
             "startDate": "Date",
             "endDate": "Date",
@@ -38,6 +67,7 @@
     ],
     "projects": [
         {
+            "id": 1,
             "title": "project1",
             "creationDate": "Date",
             "description": "lorem ipsum",

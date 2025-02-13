@@ -1,6 +1,9 @@
 export interface Experience {
+    id: number;
     title: string;
-    location: string;
+    at: string;
+    atUrl: string;
+    latlng: [number, number];
     country: string;
     startDate: string;
     endDate: string;

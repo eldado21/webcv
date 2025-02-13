@@ -1,0 +1,17 @@
+.container {
+    background-color: var(--tertiary-color);
+    box-shadow: 3px 3px 3px black;
+    flex-direction: row;
+    border-radius: 5px;
+    display: flex;
+    min-height: 200px;
+    margin-bottom: 32px;
+}
+
+.map-container {
+    min-width: 25%;
+}
+
+.content {
+    margin: 5px 15px;
+}

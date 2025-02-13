@@ -1,19 +1,21 @@
-<header>
+<header *ngIf="owner">
     <div id="card-position">
         <div id="card">
             <img [src]="owner.image" alt="Me !" >
         </div>
     </div>
 
-    <div id="informations">
+    <div id="header-informations">
         <div id="name">
             <h1>{{owner.name}}</h1>
         </div>
     
         <p>{{owner.country}}</p>
     
-        <div *ngFor="let socialurl of owner.socialUrls">
-            <a [href]="socialurl.url"><i class="{{socialurl.icon}}"></i> {{socialurl.name}}</a>
+        <div id="social-urls">
+            <div class="social-url" *ngFor="let socialurl of owner.socialUrls">
+                <a [href]="socialurl.url"><i class="{{socialurl.icon}}"></i> {{socialurl.name}}</a>
+            </div>
         </div>
     </div>
 </header>

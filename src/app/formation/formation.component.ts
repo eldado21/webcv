@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   template: `
   <article class="formation">
     <h2>{{formation.title}}</h2>
-    <p>{{formation.location}}</p>
+    <p>{{formation.latlng}}</p>
     <p>{{formation.startDate}} - {{formation.endDate}}</p>
     <p>{{formation.description}}</p>
   </article>
