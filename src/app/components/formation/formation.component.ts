@@ -6,7 +6,7 @@ import { MapComponent } from "../map/map.component";
 
 @Component({
   selector: 'app-formation',
-  imports: [CommonModule, MapComponent],
+  imports: [CommonModule],
   templateUrl: './formation.component.html',
   styleUrl: './formation.component.css'
 })

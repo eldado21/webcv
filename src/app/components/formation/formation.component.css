@@ -1,8 +1,8 @@
 .formation-item-container {
     background-color: var(--tertiary-color);
     box-shadow: 0px 5px 10px black;
-    flex-direction: row;
     border-radius: 5px;
+    flex-direction: row;
     display: flex;
     min-height: 200px;
     margin-bottom: 32px;

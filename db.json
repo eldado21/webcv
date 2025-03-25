@@ -92,8 +92,8 @@
         }
     ],
     "skills": {
-        "languages": [],
-        "techStack": [],
-        "softSkills": []
+        "languages": ["Français", "Espagnol", "Anglais", "Japonnais"],
+        "techStack": ["Python", "C", "Java", "SQL", "Angular", "Grafana"],
+        "softSkills": ["Patient", "Rigoureux", "Autodidacte"]
     }
 }
