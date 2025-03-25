@@ -90,5 +90,10 @@
                 "img4"
             ]
         }
-    ]
+    ],
+    "skills": {
+        "languages": [],
+        "techStack": [],
+        "softSkills": []
+    }
 }

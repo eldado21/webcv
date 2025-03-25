@@ -2,14 +2,15 @@ import { Component, inject } from '@angular/core';
 // import { RouterOutlet } from '@angular/router';
 import { ContentService } from './services/content.service';
 import { Experience } from './interfaces/experience';
-import { ExperienceComponent } from './experience/experience.component';
-import { FormationComponent } from './formation/formation.component';
-import { ProjectComponent } from './project/project.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { FormationComponent } from './components/formation/formation.component';
+import { ProjectComponent } from './components/project/project.component';
 import { CommonModule } from '@angular/common';
 import { Formation } from './interfaces/formation';
 import { Project } from './interfaces/project';
-import { OwnerHeaderComponent } from "./owner-header/owner-header.component";
+import { OwnerHeaderComponent } from "./components/owner-header/owner-header.component";
 import { Owner } from './interfaces/owner';
+import { SkillsComponent } from "./components/skills/skills.component";
 
 
 @Component({
@@ -19,8 +20,9 @@ import { Owner } from './interfaces/owner';
     ExperienceComponent,
     FormationComponent,
     ProjectComponent,
-    OwnerHeaderComponent
-  ],
+    OwnerHeaderComponent,
+    SkillsComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

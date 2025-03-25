@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Owner } from '../interfaces/owner';
+import { Owner } from '../../interfaces/owner';
 import { CommonModule } from '@angular/common';
 
 
