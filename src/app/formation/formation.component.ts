@@ -1,19 +1,13 @@
 import { Component, Input } from '@angular/core';
 import { Experience } from '../interfaces/experience';
 import { CommonModule } from '@angular/common';
+import { MapComponent } from "../map/map.component";
 
 
 @Component({
   selector: 'app-formation',
-  imports: [CommonModule],
-  template: `
-  <article class="formation">
-    <h2>{{formation.title}}</h2>
-    <p>{{formation.latlng}}</p>
-    <p>{{formation.startDate}} - {{formation.endDate}}</p>
-    <p>{{formation.description}}</p>
-  </article>
-  `,
+  imports: [CommonModule, MapComponent],
+  templateUrl: './formation.component.html',
   styleUrl: './formation.component.css'
 })
 

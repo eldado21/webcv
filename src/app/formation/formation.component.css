@@ -1,0 +1,18 @@
+.formation-item-container {
+    background-color: var(--tertiary-color);
+    box-shadow: 0px 5px 10px black;
+    flex-direction: row;
+    border-radius: 5px;
+    display: flex;
+    min-height: 200px;
+    margin-bottom: 32px;
+}
+
+img {
+    margin: 10px;
+    width: 260px;
+}
+
+.content {
+    margin: 5px 15px;
+}

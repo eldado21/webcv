@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 
 export class ContentService {
-  readonly baseUrl: string = "http://localhost:3000/"
+  readonly baseUrl: string = "http://localhost:10000/"
 
   async getContent(endpoint: string): Promise<any> {
     const data = await fetch(this.baseUrl + endpoint);

@@ -55,14 +55,25 @@
     "formations": [
         {
             "id": 1,
-            "title": "formation1",
-            "at": "HEPIA",
+            "title": "Bachelor of Science HES-SO en informatique et systèmes de communication",
+            "at": "Haute école du paysage, d'ingénierie et d'architecture de Genève",
             "atUrl": "https://www.hesge.ch/hepia/",
             "latlng": [46.204519704052466, 6.138575100420967],
             "country": "Switzerland",
-            "startDate": "Date",
-            "endDate": "Date",
-            "description": "lorem ipsum"
+            "startDate": "2020",
+            "endDate": "2023",
+            "description": "Bacon ipsum dolor amet strip steak jerky alcatra ham hock capicola. Buffalo sausage beef ribs pork chop shank pork belly jerky short loin pork loin. Meatball pork chop rump, ball tip short loin shankle beef strip steak chislic jowl ham hock. Boudin corned beef turducken, pork jowl landjaeger kevin ham pig hamburger sausage."
+        },
+        {
+            "id": 2,
+            "title": "Diplôme d'informaticien de gestion ES",
+            "at": "École supérieure d'informatique de gestion",
+            "atUrl": "https://www.hesge.ch/hepia/",
+            "latlng": [46.204519704052466, 6.138575100420967],
+            "country": "Switzerland",
+            "startDate": "2018",
+            "endDate": "2020",
+            "description": "Bacon ipsum dolor amet strip steak jerky alcatra ham hock capicola. Buffalo sausage beef ribs pork chop shank pork belly jerky short loin pork loin. Meatball pork chop rump, ball tip short loin shankle beef strip steak chislic jowl ham hock. Boudin corned beef turducken, pork jowl landjaeger kevin ham pig hamburger sausage."
         }
     ],
     "projects": [
@@ -70,7 +81,8 @@
             "id": 1,
             "title": "project1",
             "creationDate": "Date",
-            "description": "lorem ipsum",
+            "techStack": [],
+            "description": "Bacon ipsum dolor amet strip steak jerky alcatra ham hock capicola. Buffalo sausage beef ribs pork chop shank pork belly jerky short loin pork loin. Meatball pork chop rump, ball tip short loin shankle beef strip steak chislic jowl ham hock. Boudin corned beef turducken, pork jowl landjaeger kevin ham pig hamburger sausage.",
             "images": [
                 "img1",
                 "img2",
