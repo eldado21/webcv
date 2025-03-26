@@ -127,10 +127,17 @@
         "techStack": [
             "Python",
             "C",
+            "C++",
             "Java",
+            "Dart",
             "SQL",
             "Angular",
-            "Grafana"
+            "Flutter",
+            "Typst",
+            "Mermaid",
+            "Grafana",
+            "Linux",
+            "Windows"
         ],
         "softSkills": [
             "Patient",

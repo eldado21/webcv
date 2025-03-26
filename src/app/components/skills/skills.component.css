@@ -1,8 +1,12 @@
+/* Main container and generic styles */
+
 #skills-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .container {
@@ -45,17 +49,39 @@
 }
 
 .background-bar {
-    border-radius: 10px;
-    height: 20px;
+    border-radius: 15px;
+    height: 26px;
     width: 150px;
     /* https://cssgradient.io/ */
-    background: linear-gradient(90deg, rgba(0,255,254,1) 25%, rgba(0,174,255,1) 50%, rgba(164,81,255,1) 75%, rgba(254,0,255,1) 100%);
+    background: linear-gradient(90deg, rgba(0, 255, 254, 1) 25%, rgba(0, 174, 255, 1) 50%, rgba(164, 81, 255, 1) 75%, rgba(254, 0, 255, 1) 100%);
 }
 
 .foreground-bar {
-    height: 20px;
-    border-radius: 10px;
+    height: 26px;
+    border-radius: 15px;
     margin-left: auto;
     margin-right: 0;
-    background-image: radial-gradient(circle at 0 10px, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 12px, rgb(88, 89, 90) 10px);
+    background-image: radial-gradient(circle at 0 13px, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 15px, rgb(88, 89, 90) 10px);
+}
+
+/* tech stack section styles */
+#techstack-list-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 400px;
+    gap: 10px;
+
+}
+
+.technology {
+    padding: 4px 8px;
+    background-color: rgb(212, 0, 255);
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+/* soft skills section styles */
+#softskills-container {
+    flex-grow: 1;
 }
