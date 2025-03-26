@@ -14,7 +14,6 @@
                 "icon": "fa-brands fa-linkedin",
                 "url": "https://www.linkedin.com/in/damian-boquete/"
             }
-
         ]
     },
     "experiences": [
@@ -23,7 +22,10 @@
             "title": "Developpeur logiciel & assistant pédagogique",
             "at": "HEPIA",
             "atUrl": "https://www.hesge.ch/hepia/",
-            "latlng": [46.2072017,6.1414867],
+            "latlng": [
+                46.2072017,
+                6.1414867
+            ],
             "country": "Suisse",
             "startDate": "Novembre 2024",
             "endDate": "Maintenant",
@@ -34,7 +36,10 @@
             "title": "Webmaster & assistant informatique",
             "at": "Amivie",
             "atUrl": "",
-            "latlng": [46.204519704052466, 6.138575100420967],
+            "latlng": [
+                46.204519704052466,
+                6.138575100420967
+            ],
             "country": "Suisse",
             "startDate": "Juin 2020",
             "endDate": "Juillet 2020",
@@ -45,7 +50,10 @@
             "title": "Developpeur UI",
             "at": "Khéops Technologies SA",
             "atUrl": "",
-            "latlng": [46.204519704052466, 6.138575100420967],
+            "latlng": [
+                46.204519704052466,
+                6.138575100420967
+            ],
             "country": "Suisse",
             "startDate": "Août 2019",
             "endDate": "Octobre 2019",
@@ -58,7 +66,10 @@
             "title": "Bachelor of Science HES-SO en informatique et systèmes de communication",
             "at": "Haute école du paysage, d'ingénierie et d'architecture de Genève",
             "atUrl": "https://www.hesge.ch/hepia/",
-            "latlng": [46.204519704052466, 6.138575100420967],
+            "latlng": [
+                46.204519704052466,
+                6.138575100420967
+            ],
             "country": "Switzerland",
             "startDate": "2020",
             "endDate": "2023",
@@ -69,7 +80,10 @@
             "title": "Diplôme d'informaticien de gestion ES",
             "at": "École supérieure d'informatique de gestion",
             "atUrl": "https://www.hesge.ch/hepia/",
-            "latlng": [46.204519704052466, 6.138575100420967],
+            "latlng": [
+                46.204519704052466,
+                6.138575100420967
+            ],
             "country": "Switzerland",
             "startDate": "2018",
             "endDate": "2020",
@@ -92,8 +106,36 @@
         }
     ],
     "skills": {
-        "languages": ["Français", "Espagnol", "Anglais", "Japonnais"],
-        "techStack": ["Python", "C", "Java", "SQL", "Angular", "Grafana"],
-        "softSkills": ["Patient", "Rigoureux", "Autodidacte"]
+        "languages": [
+            {
+                "name": "Français",
+                "level": "Nat."
+            },
+            {
+                "name": "Espagnol",
+                "level": "C1"
+            },
+            {
+                "name": "Anglais",
+                "level": "B2"
+            },
+            {
+                "name": "Japonnais",
+                "level": "A1"
+            }
+        ],
+        "techStack": [
+            "Python",
+            "C",
+            "Java",
+            "SQL",
+            "Angular",
+            "Grafana"
+        ],
+        "softSkills": [
+            "Patient",
+            "Rigoureux",
+            "Autodidacte"
+        ]
     }
 }

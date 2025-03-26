@@ -1,20 +1,55 @@
 import { Component, inject } from '@angular/core';
 import { ContentService } from '../../services/content.service';
-import { Skills } from '../../interfaces/skills';
-import { NgFor, NgForOf } from '@angular/common';
+import { NgForOf, NgStyle } from '@angular/common';
+import { Language } from '../../interfaces/language';
+import { Technology } from '../../interfaces/technology';
+import { SoftSkill } from '../../interfaces/soft-skill';
 
 @Component({
   selector: 'app-skills',
-  imports: [NgFor],
+  imports: [NgForOf],
+  providers: [],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'
 })
+
 export class SkillsComponent {
   contentService: ContentService = inject(ContentService);
-  skills!: Skills;
+  languages!: Language[];
+  techStack!: Technology[];
+  softSkills!: SoftSkill[];
 
   constructor() {
     this.contentService.getContent("skills")
-      .then((skills: Skills) => this.skills = skills);
+      .then((data) => {
+        this.languages = data.languages;
+        this.techStack = data.techStack;
+        this.softSkills = data.softSkills;
+      });
   }
+
+  // returns a translation of the CEFR level to a percentage (ex: C2 = 100% of language knowledge)
+  levelToPercent = (language: Language): number => {
+    let threshold = 16.5
+
+    switch (language.level.toLowerCase()) {
+      case "a1":
+        return threshold;
+      case "a2":
+        return 2 * threshold;
+      case "b1":
+        return 3 * threshold;
+      case "b2":
+        return 4 * threshold;
+      case "c1":
+        return 5 * threshold;
+      case "c2":
+        return 100.0;
+      case "nat.":
+        return 100.0;
+      default:
+        return 0.0;
+    }
+  }
+
 }

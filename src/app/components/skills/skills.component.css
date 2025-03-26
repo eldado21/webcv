@@ -9,10 +9,53 @@
     background-color: var(--tertiary-color);
     box-shadow: 0px 5px 10px black;
     border-radius: 5px;
-    padding: 5px 25px;
+    padding: 10px 30px;
+    min-width: 300px;
 }
 
-#languages-container {
-    display: grid;
-    
+.item-container {
+    margin-bottom: 16px;
+}
+
+/* languages section styles */
+
+#languages-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* skill bar */
+
+.skillbar-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.level {
+    width: 30px;
+    text-align: center;
+    margin: auto;
+    font-weight: 900;
+}
+
+.level-skillbar-spacing {
+    width: 10px;
+}
+
+.background-bar {
+    border-radius: 10px;
+    height: 20px;
+    width: 150px;
+    /* https://cssgradient.io/ */
+    background: linear-gradient(90deg, rgba(0,255,254,1) 25%, rgba(0,174,255,1) 50%, rgba(164,81,255,1) 75%, rgba(254,0,255,1) 100%);
+}
+
+.foreground-bar {
+    height: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 0;
+    background-image: radial-gradient(circle at 0 10px, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 12px, rgb(88, 89, 90) 10px);
 }
