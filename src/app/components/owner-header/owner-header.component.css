@@ -18,6 +18,10 @@ header {
     width: 64px;
 }
 
+#name {
+    font-size: 20pt;
+}
+
 #social-urls {
     display: flex;
     flex-direction: row;
@@ -29,6 +33,11 @@ header {
 .social-url {
     margin-right: 5px;
     margin-left: 5px;
+}
+
+.social-url a {
+    text-decoration: none;
+    color: black;
 }
 
 

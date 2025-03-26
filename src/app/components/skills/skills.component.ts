@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { ContentService } from '../../services/content.service';
-import { NgForOf, NgStyle } from '@angular/common';
+import { NgForOf } from '@angular/common';
 import { Language } from '../../interfaces/language';
 import { Technology } from '../../interfaces/technology';
 import { SoftSkill } from '../../interfaces/soft-skill';
