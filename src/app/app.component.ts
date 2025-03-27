@@ -6,7 +6,6 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { FormationComponent } from './components/formation/formation.component';
 import { ProjectComponent } from './components/project/project.component';
 import { CommonModule } from '@angular/common';
-import { Formation } from './interfaces/formation';
 import { Project } from './interfaces/project';
 import { OwnerHeaderComponent } from "./components/owner-header/owner-header.component";
 import { Owner } from './interfaces/owner';
@@ -33,7 +32,7 @@ export class AppComponent {
 
   owner!: Owner;
   experiences: Experience[] = [];
-  formations: Formation[] = [];
+  formations: Experience[] = [];
   projects: Project[] = [];
 
   constructor() {
@@ -44,7 +43,7 @@ export class AppComponent {
       .then((experiences: Experience[]) => this.experiences = experiences);
 
     this.contentService.getContent("formations")
-      .then((formations: Formation[]) => this.formations = formations);
+      .then((formations: Experience[]) => this.formations = formations);
 
     this.contentService.getContent("projects")
       .then((projects: Project[]) => this.projects = projects);

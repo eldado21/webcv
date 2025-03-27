@@ -2,18 +2,20 @@
     <div id="header-container">
         <div id="card-wrapper">
             <div id="card">
-                <img [src]="owner.image" alt="Me !">
+                <img [src]="owner.imageUrl" alt="Me !">
             </div>
         </div>
 
-        <div id="header-gap"></div>
-
         <div id="header-informations">
             <div id="name">
-                <h1><{{owner.name}}></h1>
+                <{{owner.name}}>
             </div>
-
-            <p>{{owner.country}}</p>
+            <div id="job-title">
+                {{owner.jobTitle}}
+            </div>
+            <div id="country">
+                {{owner.country}}
+            </div>
 
             <div id="social-urls">
                 <div class="social-url" *ngFor="let socialurl of owner.socialUrls">

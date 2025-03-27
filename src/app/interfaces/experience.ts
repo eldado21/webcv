@@ -3,6 +3,7 @@ export interface Experience {
     title: string;
     at: string;
     atUrl: string;
+    imageUrl: string;
     latlng: [number, number];
     country: string;
     startDate: string;

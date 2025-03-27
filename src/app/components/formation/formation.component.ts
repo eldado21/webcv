@@ -1,7 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Experience } from '../../interfaces/experience';
 import { CommonModule } from '@angular/common';
-import { MapComponent } from "../map/map.component";
 
 
 @Component({
@@ -14,4 +13,9 @@ import { MapComponent } from "../map/map.component";
 
 export class FormationComponent {
   @Input() formation!: Experience;
+
+  ngOnInit() {
+    console.log(this.formation);
+    
+  }
 }

@@ -1,3 +1,4 @@
+/* base styles */
 header {
     padding-top: 32px;
     color: black;
@@ -10,17 +11,32 @@ header {
     width: 70vw;
     display: flex;
     flex-direction: row;
-    column-gap: 2;
+    gap: 40px;
 
 }
 
-#header-gap {
-    width: 64px;
+/* owner informations style */
+
+#header-informations {
+    margin-top: 20px;
 }
 
 #name {
+    font-size: 30pt;
+    font-weight: 900;
+    margin: 0%;
+}
+
+#job-title {
     font-size: 20pt;
 }
+
+#country {
+
+}
+
+
+/* Social urls style */
 
 #social-urls {
     display: flex;
