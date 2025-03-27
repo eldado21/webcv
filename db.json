@@ -1,8 +1,9 @@
 {
     "owner": {
         "name": "Damian B.",
+        "jobTitle": "Software engineer",
         "country": "Switzerland",
-        "image": "./assets/portrait.png",
+        "imageUrl": "/assets/portrait.png",
         "socialUrls": [
             {
                 "name": "github",
@@ -20,14 +21,15 @@
         {
             "id": 1,
             "title": "Developpeur logiciel & assistant pédagogique",
-            "at": "HEPIA",
+            "at": "Haute école du paysage, d'ingénierie et d'architecture de Genève",
             "atUrl": "https://www.hesge.ch/hepia/",
+            "imageUrl": "/assets/hepia.png",
             "latlng": [
                 46.2072017,
                 6.1414867
             ],
             "country": "Suisse",
-            "startDate": "Novembre 2024",
+            "startDate": "Novembre 2023",
             "endDate": "Maintenant",
             "description": "Chargé de développement et optimisation d'algorithmes de Machine Learning. Conception d'interfaces utilisateur facilitant la configuration de programmes. Rédaction de papiers scientifiques. Assistance et suivi d'étudiants."
         },
@@ -36,6 +38,7 @@
             "title": "Webmaster & assistant informatique",
             "at": "Amivie",
             "atUrl": "",
+            "imageUrl": "/assets/amivie.png",
             "latlng": [
                 46.204519704052466,
                 6.138575100420967
@@ -49,7 +52,8 @@
             "id": 3,
             "title": "Developpeur UI",
             "at": "Khéops Technologies SA",
-            "atUrl": "",
+            "atUrl": "/assets/kheops.png",
+            "imageUrl": "/assets/kheops.png",
             "latlng": [
                 46.204519704052466,
                 6.138575100420967
@@ -65,6 +69,7 @@
             "id": 1,
             "title": "Bachelor of Science HES-SO en informatique et systèmes de communication",
             "at": "Haute école du paysage, d'ingénierie et d'architecture de Genève",
+            "imageUrl": "/assets/hepia.png",
             "atUrl": "https://www.hesge.ch/hepia/",
             "latlng": [
                 46.204519704052466,
@@ -80,6 +85,7 @@
             "title": "Diplôme d'informaticien de gestion ES",
             "at": "École supérieure d'informatique de gestion",
             "atUrl": "https://www.hesge.ch/hepia/",
+            "imageUrl": "/assets/gva.png",
             "latlng": [
                 46.204519704052466,
                 6.138575100420967
@@ -129,19 +135,24 @@
             "C",
             "C++",
             "Java",
+            "JavaScript",
+            "TypeScript",
             "Dart",
             "SQL",
+            "HTML",
+            "CSS",
             "Angular",
             "Flutter",
             "Typst",
+            "MKDocs",
             "Mermaid",
             "Grafana",
             "Linux",
             "Windows"
         ],
         "softSkills": [
-            "Patient",
-            "Rigoureux",
+            "Flexible",
+            "Esprit d'équipe",
             "Autodidacte"
         ]
     }
