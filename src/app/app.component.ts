@@ -1,9 +1,7 @@
 import { Component, inject } from '@angular/core';
-// import { RouterOutlet } from '@angular/router';
 import { ContentService } from './services/content.service';
 import { Experience } from './interfaces/experience';
 import { ExperienceComponent } from './components/experience/experience.component';
-import { FormationComponent } from './components/formation/formation.component';
 import { ProjectComponent } from './components/project/project.component';
 import { CommonModule } from '@angular/common';
 import { Project } from './interfaces/project';
@@ -17,11 +15,10 @@ import { SkillsComponent } from "./components/skills/skills.component";
   imports: [
     CommonModule,
     ExperienceComponent,
-    FormationComponent,
     ProjectComponent,
     OwnerHeaderComponent,
     SkillsComponent
-],
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

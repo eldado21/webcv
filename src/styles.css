@@ -13,32 +13,6 @@ body {
     height: 100%;
 }
 
-/* basic card container styles */
-.card-base-container {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    background-color: var(--tertiary-color);
-    box-shadow: 0px 5px 10px black;
-    border-radius: 10px;
-    margin-bottom: 32px;
-}
-
-/* left-container is usually images */
-.card-base-container .left-content {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.card-base-container .right-content {
-    margin: 5px 15px;
-    min-width: 70%;
-}
-
-
 body {
     margin: 0;
     color: var(--text-color);
@@ -47,22 +21,17 @@ body {
     font-size: large;
 }
 
-/* get map in dark mode */
-/* credit: https://codepen.io/Gre-Van/pen/JoPwjoX */
-.leaflet-layer,
-.leaflet-control-zoom-in,
-.leaflet-control-zoom-out,
-.leaflet-control-attribution {
-    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
-    /* animation: rot 1s linear infinite; */
+/* basic card container styles */
+.card-base-container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--tertiary-color);
+    box-shadow: 0px 5px 10px black;
+    border-radius: 10px;
+    margin-bottom: 32px;
 }
 
-/* Alexis's deviances */
-/* @keyframes rot {
-    0% {filter: invert(100%) hue-rotate(0deg) brightness(95%) contrast(90%)};
-    100% {filter: invert(100%) hue-rotate(360deg) brightness(95%) contrast(90%)};
-} */
-
-.leaflet-pane.leaflet-shadow-pane {
-    display: none;
+.card-base-content {
+    margin: 5px 30px;
+    min-width: 70%;
 }

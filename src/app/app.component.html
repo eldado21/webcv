@@ -4,7 +4,7 @@
 <main>
     <section class="item-section">
         <h2>Formations</h2>
-        <app-formation *ngFor="let formation of formations" [formation]="formation"></app-formation>
+        <app-experience *ngFor="let formation of formations" [experience]="formation"></app-experience>
     </section>
 
     <section class="item-section">
@@ -19,7 +19,9 @@
 
     <section class="item-section">
         <h2>Projects</h2>
-        <app-project *ngFor="let project of projects" [project]="project"></app-project>
+        <div class="row-section">
+            <app-project *ngFor="let project of projects" [project]="project"></app-project>
+        </div>
     </section>
 
     <section class="item-section">

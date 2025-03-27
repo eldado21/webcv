@@ -99,16 +99,30 @@
     "projects": [
         {
             "id": 1,
-            "title": "project1",
-            "creationDate": "Date",
-            "techStack": [],
-            "description": "Bacon ipsum dolor amet strip steak jerky alcatra ham hock capicola. Buffalo sausage beef ribs pork chop shank pork belly jerky short loin pork loin. Meatball pork chop rump, ball tip short loin shankle beef strip steak chislic jowl ham hock. Boudin corned beef turducken, pork jowl landjaeger kevin ham pig hamburger sausage.",
-            "images": [
-                "img1",
-                "img2",
-                "img3",
-                "img4"
-            ]
+            "title": "Run Billy, Run !!!",
+            "url": "https://github.com/eldado21/Run-Billy-Run",
+            "creationDate": "2020",
+            "techStack": ["Unity", "C#", "Aseprite"],
+            "description": "A 2D video game created as a final diploma project at ESIG. It draws strong inspiration from a mustached plumber whose name shall remain undisclosed.",
+            "imageUrl": "/assets/rbr.png"
+        },
+        {
+            "id": 2,
+            "title": "Simple galaxy sim",
+            "url": "https://github.com/eldado21/Galaxy",
+            "creationDate": "2021",
+            "techStack": ["C"],
+            "description": "A simulation of the physical behavior of celestial entities orbiting around another entity that is much more massive than them.",
+            "imageUrl": "/assets/galaxy.gif"
+        },
+        {
+            "id": 3,
+            "title": "Simple electrical field sim",
+            "url": "https://github.com/eldado21/ElectricField",
+            "creationDate": "2021",
+            "techStack": ["C"],
+            "description": "A simulation the interaction between positively and negatively charged particles.",
+            "imageUrl": "/assets/ef.png"
         }
     ],
     "skills": {
@@ -134,6 +148,7 @@
             "Python",
             "C",
             "C++",
+            "C#",
             "Java",
             "JavaScript",
             "TypeScript",
@@ -143,10 +158,13 @@
             "CSS",
             "Angular",
             "Flutter",
+            "Aseprite",
             "Typst",
             "MKDocs",
             "Mermaid",
             "Grafana",
+            "Unity",
+            "Godot",
             "Linux",
             "Windows"
         ],
