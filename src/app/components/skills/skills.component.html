@@ -7,7 +7,7 @@
             <div class="language">{{language.name}}</div>
             <div class="skillbar-container">
                 <div class="background-bar">
-                    <div class="foreground-bar" [style.width.px]="(100-levelToPercent(language))/100 * 150"></div>
+                    <div class="foreground-bar" [style.width.px]="(100-levelToPercent(language))/100 * 150 + 11"></div>
                 </div>
                 <div class="level-skillbar-spacing"></div>
                 <div class="level">{{language.level}}</div>
