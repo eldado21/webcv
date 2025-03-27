@@ -8,9 +8,36 @@
     /* --mobile-size: 768px; */
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
+
+/* basic card container styles */
+.card-base-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: var(--tertiary-color);
+    box-shadow: 0px 5px 10px black;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+/* left-container is usually images */
+.card-base-container .left-content {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-base-container .right-content {
+    margin: 5px 15px;
+    min-width: 70%;
+}
+
 
 body {
     margin: 0;
