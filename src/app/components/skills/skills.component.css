@@ -7,6 +7,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 40px;
+    height: 100%;
 }
 
 .container {
@@ -67,21 +68,40 @@
 /* tech stack section styles */
 #techstack-list-wrapper {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: center;
-    max-width: 400px;
+    flex-wrap: wrap;
     gap: 10px;
-
+    max-width: 600px;
+    column-gap: 10px;
 }
 
 .technology {
     padding: 4px 8px;
-    background-color: rgb(212, 0, 255);
+    min-width: 100px;
+    background-color: rgb(42, 82, 168);
     border-radius: 20px;
     font-weight: 900;
+    text-align: center;
 }
 
 /* soft skills section styles */
 #softskills-container {
-    flex-grow: 1;
+    width: 100px;
+}
+
+
+#left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 423px;
+}
+
+#softskills-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }

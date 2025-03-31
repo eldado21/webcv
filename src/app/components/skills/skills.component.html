@@ -1,39 +1,43 @@
 <div id="skills-container">
-    @defer (when languages) {
-    <div id="languages-container" class="container">
-        <h3>Langues</h3>
-        <div id="languages-list-wrapper">
-        <div id="languages-item-container" class="item-container" *ngFor="let language of this.languages">
-            <div class="language">{{language.name}}</div>
-            <div class="skillbar-container">
-                <div class="background-bar">
-                    <div class="foreground-bar" [style.width.px]="(100-levelToPercent(language))/100 * 150 + 11"></div>
+    <div id="left-column">
+        @defer (when languages) {
+        <div id="languages-container" class="container">
+            <h2>Langues</h2>
+            <div id="languages-list-wrapper">
+                <div id="languages-item-container" class="item-container" *ngFor="let language of this.languages">
+                    <div class="language">{{language.name}}</div>
+                    <div class="skillbar-container">
+                        <div class="background-bar">
+                            <div class="foreground-bar"
+                                [style.width.px]="(100-levelToPercent(language))/100 * 150 + 11">
+                            </div>
+                        </div>
+                        <div class="level-skillbar-spacing"></div>
+                        <div class="level">{{language.level}}</div>
+                    </div>
                 </div>
-                <div class="level-skillbar-spacing"></div>
-                <div class="level">{{language.level}}</div>
             </div>
         </div>
-        </div>
-    </div>
-    }
+        }
 
+        @defer (when softSkills) {
+        <div id="softskills-container" class="container">
+            <h2>Soft skills</h2>
+            <div id="softskills-list-wrapper">
+                <div id="softskills-item-container" class="item-container" *ngFor="let softSkill of this.softSkills">
+                    <div class="softskill">{{softSkill}}</div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+    
     @defer (when techStack) {
     <div id="techstack-container" class="container">
-        <h3>Tech stack</h3>
+        <h2>Tech stack</h2>
         <div id="techstack-list-wrapper">
             <div id="techstack-item-container" class="item-container" *ngFor="let tech of this.techStack">
                 <div class="technology">{{tech}}</div>
-            </div>
-        </div>
-    </div>
-    }
-
-    @defer (when softSkills) {
-    <div id="softskills-container" class="container">
-        <h3>Soft skills</h3>
-        <div id="softskills-list-wrapper">
-            <div id="softskills-item-container" class="item-container" *ngFor="let softSkill of this.softSkills">
-                <div class="softskill">{{softSkill}}</div>
             </div>
         </div>
     </div>

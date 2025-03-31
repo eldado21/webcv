@@ -2,6 +2,8 @@
     width: 350px;
     display: flex;
     flex-direction: column;
+    max-height: auto;
+    margin: 0;
 }
 
 img {
@@ -9,4 +11,14 @@ img {
     border-top-right-radius: 10px;
     object-fit: cover;
     height: 300px;
+    max-height: 300px;
+}
+
+#card-base-content {
+    max-height: 100%;
+}
+
+.project-description {
+    text-align: justify;
+    text-overflow: ellipsis;
 }

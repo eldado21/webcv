@@ -8,6 +8,7 @@ import { Project } from './interfaces/project';
 import { OwnerHeaderComponent } from "./components/owner-header/owner-header.component";
 import { Owner } from './interfaces/owner';
 import { SkillsComponent } from "./components/skills/skills.component";
+import { MiscComponent } from "./components/misc/misc.component";
 
 
 @Component({
@@ -17,8 +18,9 @@ import { SkillsComponent } from "./components/skills/skills.component";
     ExperienceComponent,
     ProjectComponent,
     OwnerHeaderComponent,
-    SkillsComponent
-  ],
+    SkillsComponent,
+    MiscComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
