@@ -173,5 +173,27 @@
             "Esprit d'équipe",
             "Autodidacte"
         ]
+    },
+    "misc": {
+        "readings" : [
+            {
+                "title": "Clean Coder",
+                "author": "Robert C. Martin",
+                "year": 2011,
+                "imgUrl": "/assets/clean-coder.png"
+            },
+            {
+                "title": "Fluent Python (2nd edition)",
+                "author": "Luciano Ramalho",
+                "year": 2022,
+                "imgUrl": "/assets/fluent-python.png"
+            },
+            {
+                "title": "Functional Programming in Java",
+                "author": "Pierre-Yves Saumont",
+                "year": 2017,
+                "imgUrl": "/assets/funcprog-java.png"
+            }
+        ]
     }
 }
