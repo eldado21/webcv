@@ -1,0 +1,13 @@
+<div id="readings-container" class="card-base-container">
+    <div class="card-base-content">
+        <h2>Readings</h2>
+        <div id="readings-list-wrapper">
+            <div class="reading-item-container" *ngFor="let reading of readings">
+                <img [src]="reading.imgUrl" alt="">
+                <h3>{{reading.title}}</h3>
+                <p>{{reading.author}}</p>
+                <p>{{reading.year}}</p>
+            </div>
+        </div>
+    </div>
+</div>
