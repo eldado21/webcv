@@ -6,7 +6,7 @@ import { MapComponent } from "../map/map.component";
 
 @Component({
   selector: 'app-experience',
-  imports: [CommonModule, MapComponent],
+  imports: [CommonModule],
   templateUrl: './experience.component.html', 
   styleUrl: './experience.component.css'
 })
