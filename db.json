@@ -123,6 +123,24 @@
             "techStack": ["C"],
             "description": "A simulation the interaction between positively and negatively charged particles.",
             "imageUrl": "/assets/ef.png"
+        },
+        {
+            "id": 4,
+            "title": "MNIST based OCR",
+            "url": "https://github.com/eldado21/OCR",
+            "creationDate": "2021",
+            "techStack": ["Python", "JavaScript", "HTML", "CSS"],
+            "description": "A webapp displaying a canvas where you can write a digit by hand and ask to the app what's its guess on it.",
+            "imageUrl": "/assets/ocr.png"
+        },
+        {
+            "id": 5,
+            "title": "Bachelor thesis",
+            "url": "https://github.com/eldado21/bachelor-project",
+            "creationDate": "2021",
+            "techStack": ["Python", "ML"],
+            "description": "A webapp displaying a canvas where you can write a digit by hand and ask to the app what's its guess on it.",
+            "imageUrl": "/assets/ocr.png"
         }
     ],
     "skills": {
