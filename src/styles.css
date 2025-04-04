@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
     --card-overflow-y: 64px;
-    --primary-color: #76ABAE;
+    --primary-color: rgba(255,118,0,1);
     --secondary-color: #222831;
     --tertiary-color: #31363F;
     --text-color: white;
@@ -34,4 +34,13 @@ body {
 .card-base-content {
     margin: 5px 30px;
     min-width: 70%;
+}
+
+.base-button {
+    background-color: var(--secondary-color);
+}
+
+.base-button:hover {
+    background-color: var(--primary-color);
+    transition: background-color 0.2s;
 }
