@@ -1,0 +1,18 @@
+<footer>
+
+    <div id="footer-container">
+        <div id="sign">
+            <p>
+                <\>
+            </p>
+        </div>
+        <div id="copyright">
+            <p><i class="fa-regular fa-copyright"></i> 2025 Damian B.</p>
+            <div id="social-urls">
+                <div class="base-button social-url" *ngFor="let socialurl of this.socialUrls">
+                    <a [href]="socialurl.url"><i class="{{socialurl.icon}}"></i> {{socialurl.name}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

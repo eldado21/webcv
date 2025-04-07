@@ -5,5 +5,4 @@ export interface Owner {
     jobTitle: string;
     country: string;
     imageUrl: string;
-    socialUrls: SocialUrl[];
 }

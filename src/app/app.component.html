@@ -26,20 +26,8 @@
 
     <section class="item-section">
         <h2>Misc</h2>
-            <app-misc></app-misc>
+            <app-misc [readings]="this.readings"></app-misc>
     </section>
 </main>
 
-
-<footer>
-    <div id="footer-container">
-        <div id="sign">
-            <p>
-                <\>
-            </p>
-        </div>
-        <div id="copyright">
-            <p><i class="fa-regular fa-copyright"></i> 2025 Damian B.</p>
-        </div>
-    </div>
-</footer>
+<app-footer [socialUrls]="this.socialUrls"></app-footer>

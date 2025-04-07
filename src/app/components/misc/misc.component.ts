@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, Input } from '@angular/core';
 import { Reading } from '../../interfaces/reading';
 import { NgFor } from '@angular/common';
 import { ContentService } from '../../services/content.service';
@@ -11,11 +11,9 @@ import { ContentService } from '../../services/content.service';
 })
 
 export class MiscComponent {
-  readings!: Reading[];
-  service: ContentService = inject(ContentService);
+  @Input() readings!: Reading[];
 
   constructor() {
-    this.service.getContent("misc")
-      .then((datas) => this.readings = datas.readings);
+
   }
 }

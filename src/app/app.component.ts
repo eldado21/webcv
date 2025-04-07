@@ -9,6 +9,9 @@ import { OwnerHeaderComponent } from "./components/owner-header/owner-header.com
 import { Owner } from './interfaces/owner';
 import { SkillsComponent } from "./components/skills/skills.component";
 import { MiscComponent } from "./components/misc/misc.component";
+import { SocialUrl } from './interfaces/social-url';
+import { Reading } from './interfaces/reading';
+import { FooterComponent } from "./components/footer/footer.component";
 
 
 @Component({
@@ -19,7 +22,8 @@ import { MiscComponent } from "./components/misc/misc.component";
     ProjectComponent,
     OwnerHeaderComponent,
     SkillsComponent,
-    MiscComponent
+    MiscComponent,
+    FooterComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
@@ -33,6 +37,8 @@ export class AppComponent {
   experiences: Experience[] = [];
   formations: Experience[] = [];
   projects: Project[] = [];
+  socialUrls: SocialUrl[] = [];
+  readings: Reading[] = [];
 
   constructor() {
     this.contentService.getContent("owner")
@@ -46,5 +52,11 @@ export class AppComponent {
 
     this.contentService.getContent("projects")
       .then((projects: Project[]) => this.projects = projects);
+
+    this.contentService.getContent("socialUrls")
+      .then((socialUrls: SocialUrl[]) => this.socialUrls = socialUrls);
+
+    this.contentService.getContent("readings")
+      .then((readings: Reading[]) => this.readings = readings);
   }
 }

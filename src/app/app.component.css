@@ -35,27 +35,3 @@ h2 {
         padding-left: 16px;
     }
 }
-
-/* ---FOOTER--- */
-
-footer {
-    min-height: 100px;
-    background-color: rgb(26, 26, 31);
-}
-
-#footer-container {
-    width: 70vw;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-#footer-container #sign {
-    font-size: 60pt;
-    font-weight: 900;
-}
-
-#footer-container #copyright {
-    font-size: 18pt;
-    margin: auto;
-}

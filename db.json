@@ -3,19 +3,7 @@
         "name": "Damian B.",
         "jobTitle": "Software engineer",
         "country": "Switzerland",
-        "imageUrl": "/assets/portrait.png",
-        "socialUrls": [
-            {
-                "name": "github",
-                "icon": "fa-brands fa-github-alt",
-                "url": "https://github.com/eldado21"
-            },
-            {
-                "name": "linkedin",
-                "icon": "fa-brands fa-linkedin",
-                "url": "https://www.linkedin.com/in/damian-boquete/"
-            }
-        ]
+        "imageUrl": "/assets/portrait.png"
     },
     "experiences": [
         {
@@ -94,7 +82,11 @@
             "title": "Run Billy, Run !!!",
             "url": "https://github.com/eldado21/Run-Billy-Run",
             "creationDate": "2020",
-            "techStack": ["Unity", "C#", "Aseprite"],
+            "techStack": [
+                "Unity",
+                "C#",
+                "Aseprite"
+            ],
             "description": "A 2D video game created as a final diploma project at ESIG. It draws strong inspiration from a mustached plumber whose name shall remain undisclosed.",
             "imageUrl": "/assets/rbr.png"
         },
@@ -103,7 +95,9 @@
             "title": "Simple galaxy sim",
             "url": "https://github.com/eldado21/Galaxy",
             "creationDate": "2021",
-            "techStack": ["C"],
+            "techStack": [
+                "C"
+            ],
             "description": "A simulation of the physical behavior of celestial entities orbiting around another entity that is much more massive than them.",
             "imageUrl": "/assets/galaxy.gif"
         },
@@ -112,7 +106,9 @@
             "title": "Simple electrical field sim",
             "url": "https://github.com/eldado21/ElectricField",
             "creationDate": "2021",
-            "techStack": ["C"],
+            "techStack": [
+                "C"
+            ],
             "description": "A simulation the interaction between positively and negatively charged particles.",
             "imageUrl": "/assets/ef.png"
         },
@@ -121,7 +117,12 @@
             "title": "MNIST based OCR",
             "url": "https://github.com/eldado21/OCR",
             "creationDate": "2021",
-            "techStack": ["Python", "JavaScript", "HTML", "CSS"],
+            "techStack": [
+                "Python",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
             "description": "A webapp displaying a canvas where you can write a digit by hand and ask to the app what's its guess on it.",
             "imageUrl": "/assets/ocr.png"
         },
@@ -130,7 +131,10 @@
             "title": "Bachelor thesis",
             "url": "https://github.com/eldado21/bachelor-project",
             "creationDate": "2021",
-            "techStack": ["Python", "ML"],
+            "techStack": [
+                "Python",
+                "ML"
+            ],
             "description": "A webapp displaying a canvas where you can write a digit by hand and ask to the app what's its guess on it.",
             "imageUrl": "/assets/bachelor.png"
         }
@@ -179,26 +183,36 @@
             "Autodidacte"
         ]
     },
-    "misc": {
-        "readings" : [
-            {
-                "title": "Clean Coder",
-                "author": "Robert C. Martin",
-                "year": 2011,
-                "imgUrl": "/assets/clean-coder.png"
-            },
-            {
-                "title": "Fluent Python (2nd edition)",
-                "author": "Luciano Ramalho",
-                "year": 2022,
-                "imgUrl": "/assets/fluent-python.png"
-            },
-            {
-                "title": "Functional Programming in Java",
-                "author": "Pierre-Yves Saumont",
-                "year": 2017,
-                "imgUrl": "/assets/funcprog-java.png"
-            }
-        ]
-    }
+    "readings": [
+        {
+            "title": "Clean Coder",
+            "author": "Robert C. Martin",
+            "year": 2011,
+            "imgUrl": "/assets/clean-coder.png"
+        },
+        {
+            "title": "Fluent Python (2nd edition)",
+            "author": "Luciano Ramalho",
+            "year": 2022,
+            "imgUrl": "/assets/fluent-python.png"
+        },
+        {
+            "title": "Functional Programming in Java",
+            "author": "Pierre-Yves Saumont",
+            "year": 2017,
+            "imgUrl": "/assets/funcprog-java.png"
+        }
+    ],
+    "socialUrls": [
+        {
+            "name": "github",
+            "icon": "fa-brands fa-github-alt",
+            "url": "https://github.com/eldado21"
+        },
+        {
+            "name": "linkedin",
+            "icon": "fa-brands fa-linkedin",
+            "url": "https://www.linkedin.com/in/damian-boquete/"
+        }
+    ]
 }
