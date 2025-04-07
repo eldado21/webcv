@@ -71,14 +71,10 @@
             "at": "Haute école du paysage, d'ingénierie et d'architecture de Genève",
             "imageUrl": "/assets/hepia.png",
             "atUrl": "https://www.hesge.ch/hepia/",
-            "latlng": [
-                46.204519704052466,
-                6.138575100420967
-            ],
             "country": "Switzerland",
             "startDate": "2020",
             "endDate": "2023",
-            "description": "Formation sur jerky alcatra ham hock capicola. Buffalo sausage beef ribs pork chop shank pork belly jerky short loin pork loin. Meatball pork chop rump, ball tip short loin shankle beef strip steak chislic jowl ham hock. Boudin corned beef turducken, pork jowl landjaeger kevin ham pig hamburger sausage."
+            "description": "Formation sur 3 ans. Buffalo sausage beef ribs pork chop shank pork belly jerky short loin pork loin. Meatball pork chop rump, ball tip short loin shankle beef strip steak chislic jowl ham hock. Boudin corned beef turducken, pork jowl landjaeger kevin ham pig hamburger sausage."
         },
         {
             "id": 2,
@@ -86,14 +82,10 @@
             "at": "École supérieure d'informatique de gestion",
             "atUrl": "https://www.hesge.ch/hepia/",
             "imageUrl": "/assets/gva.png",
-            "latlng": [
-                46.204519704052466,
-                6.138575100420967
-            ],
             "country": "Switzerland",
             "startDate": "2018",
             "endDate": "2020",
-            "description": "Formation sur 2 ans durant lesquelles les bases de la programation, gestion de base de données, reseau sont enseignées. Oriente vers les métiers de développeur, administrateur de base de données, 'business analyst', administrateur système et bien d'autres spécialités liées à l'informatique de gestion."
+            "description": "Formation sur 2 ans durant laquelle les bases de la programation, gestion de base de données, reseau sont enseignées. Oriente vers les métiers de développeur, administrateur de base de données, 'business analyst', administrateur système et bien d'autres spécialités liées à l'informatique de gestion."
         }
     ],
     "projects": [
