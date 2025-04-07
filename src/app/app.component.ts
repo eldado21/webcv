@@ -5,7 +5,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { ProjectComponent } from './components/project/project.component';
 import { CommonModule } from '@angular/common';
 import { Project } from './interfaces/project';
-import { OwnerHeaderComponent } from "./components/owner-header/owner-header.component";
+import { HeaderComponent } from "./components/header/header.component";
 import { Owner } from './interfaces/owner';
 import { SkillsComponent } from "./components/skills/skills.component";
 import { MiscComponent } from "./components/misc/misc.component";
@@ -20,7 +20,7 @@ import { FooterComponent } from "./components/footer/footer.component";
     CommonModule,
     ExperienceComponent,
     ProjectComponent,
-    OwnerHeaderComponent,
+    HeaderComponent,
     SkillsComponent,
     MiscComponent,
     FooterComponent

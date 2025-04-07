@@ -4,13 +4,13 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-owner-header',
+  selector: 'app-header',
   imports: [CommonModule],
-  templateUrl: './owner-header.component.html',
-  styleUrl: './owner-header.component.css'
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.css'
 })
 
 
-export class OwnerHeaderComponent {
+export class HeaderComponent {
   @Input() owner!: Owner;
 }
