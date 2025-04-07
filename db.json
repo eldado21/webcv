@@ -1,6 +1,6 @@
 {
     "owner": {
-        "name": "Damian B.",
+        "name": "Damian",
         "jobTitle": "Software engineer",
         "country": "Switzerland",
         "imageUrl": "/assets/portrait.png"
@@ -12,10 +12,6 @@
             "at": "Haute école du paysage, d'ingénierie et d'architecture de Genève",
             "atUrl": "https://www.hesge.ch/hepia/",
             "imageUrl": "/assets/hepia.png",
-            "latlng": [
-                46.2072017,
-                6.1414867
-            ],
             "country": "Suisse",
             "startDate": "Novembre 2023",
             "endDate": "Maintenant",
@@ -27,10 +23,6 @@
             "at": "Amivie",
             "atUrl": "",
             "imageUrl": "/assets/amivie.png",
-            "latlng": [
-                46.204519704052466,
-                6.138575100420967
-            ],
             "country": "Suisse",
             "startDate": "Juin 2020",
             "endDate": "Juillet 2020",
@@ -42,10 +34,6 @@
             "at": "Khéops Technologies SA",
             "atUrl": "/assets/kheops.png",
             "imageUrl": "/assets/kheops.png",
-            "latlng": [
-                46.204519704052466,
-                6.138575100420967
-            ],
             "country": "Suisse",
             "startDate": "Août 2019",
             "endDate": "Octobre 2019",
