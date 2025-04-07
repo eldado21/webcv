@@ -1,17 +1,23 @@
 <header *ngIf="owner">
     <div id="card-container">
+        <div id="card-background"></div>
         <div id="card" class="card-base-container">
-            <img [src]="owner.imageUrl" alt="Me !">
+            <div id="card-content">
+                <img [src]="owner.imageUrl" alt="Me !">
 
-            <div id="header-informations">
-                <div id="name">
-                    <{{owner.name}}>
-                </div>
-                <div id="job-title">
-                    {{owner.jobTitle}}
-                </div>
-                <div id="country">
-                    {{owner.country}}
+                <div id="header-informations">
+                    <div id="name">
+                        <p class="info-title">first name</p>
+                        {{owner.name}}
+                    </div>
+                    <div id="profession">
+                        <p class="info-title">profession</p>
+                        {{owner.jobTitle}}
+                    </div>
+                    <div id="country">
+                        <p class="info-title">country</p>
+                        {{owner.country}}
+                    </div>
                 </div>
             </div>
         </div>
