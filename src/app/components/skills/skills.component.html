@@ -1,6 +1,5 @@
 <div id="skills-container">
     <div id="left-column">
-        @defer (when languages) {
         <div id="languages-container" class="container">
             <h2>Langues</h2>
             <div id="languages-list-wrapper">
@@ -18,9 +17,8 @@
                 </div>
             </div>
         </div>
-        }
 
-        @defer (when softSkills) {
+
         <div id="softskills-container" class="container">
             <h2>Soft skills</h2>
             <div id="softskills-list-wrapper">
@@ -29,10 +27,9 @@
                 </div>
             </div>
         </div>
-        }
+
     </div>
-    
-    @defer (when techStack) {
+
     <div id="techstack-container" class="container">
         <h2>Tech stack</h2>
         <div id="techstack-list-wrapper">
@@ -41,5 +38,4 @@
             </div>
         </div>
     </div>
-    }
 </div>
