@@ -123,7 +123,7 @@
                 "Python",
                 "ML"
             ],
-            "description": "A webapp displaying a canvas where you can write a digit by hand and ask to the app what's its guess on it.",
+            "description": "Exploring AI to assist visually impaired individuals by detecting objects in real time and describing them through synthetic voice. Several have been tested to achieve accurate detection and distance estimation, enhancing safety and independence.",
             "imageUrl": "/assets/bachelor.png"
         }
     ],
