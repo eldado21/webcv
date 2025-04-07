@@ -25,7 +25,8 @@ h2 {
 .row-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
