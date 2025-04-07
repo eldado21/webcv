@@ -1,7 +1,7 @@
 :root {
     --card-overflow-y: 64px;
-    --primary-color: rgb(0, 38, 115);
-    --alt-primary-color: rgb(18, 22, 36);
+    --primary-color: rgb(46,72,102);
+    --alt-primary-color: rgb(56,121,143);
     --secondary-color: rgb(34, 40, 49);
     --tertiary-color: rgb(49, 54, 63);
     --text-color: rgb(255, 255, 255);
