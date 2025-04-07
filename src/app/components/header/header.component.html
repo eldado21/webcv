@@ -1,22 +1,24 @@
 <header *ngIf="owner">
-    <div id="card-container">
-        <div id="card-background"></div>
-        <div id="card" class="card-base-container">
-            <div id="card-content">
-                <img [src]="owner.imageUrl" alt="Me !">
+    <div id="tilt-zone" (mousemove)="tilt(card, $event)" (mouseleave)="reset(card)">
+        <div #card id="card-container">
+            <div id="card-background"></div>
+            <div id="card" class="card-base-container">
+                <div id="card-content">
+                    <img [src]="owner.imageUrl" alt="Me !">
 
-                <div id="header-informations">
-                    <div id="name">
-                        <p class="info-title">first name</p>
-                        {{owner.name}}
-                    </div>
-                    <div id="profession">
-                        <p class="info-title">profession</p>
-                        {{owner.jobTitle}}
-                    </div>
-                    <div id="country">
-                        <p class="info-title">country</p>
-                        {{owner.country}}
+                    <div id="header-informations">
+                        <div id="name">
+                            <p class="info-title">first name</p>
+                            {{owner.name}}
+                        </div>
+                        <div id="profession">
+                            <p class="info-title">profession</p>
+                            {{owner.jobTitle}}
+                        </div>
+                        <div id="country">
+                            <p class="info-title">country</p>
+                            {{owner.country}}
+                        </div>
                     </div>
                 </div>
             </div>
