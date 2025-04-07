@@ -10,4 +10,5 @@ import { SocialUrl } from '../../interfaces/social-url';
 })
 export class FooterComponent {
   @Input() socialUrls!: SocialUrl[]
+  year: number = new Date().getFullYear();
 }

@@ -7,10 +7,10 @@
             </p>
         </div>
         <div id="copyright">
-            <p><i class="fa-regular fa-copyright"></i> 2025 Damian B.</p>
+            <p><i class="fa-regular fa-copyright"></i> {{this.year}} Damian B.</p>
             <div id="social-urls">
-                <div class="base-button social-url" *ngFor="let socialurl of this.socialUrls">
-                    <a [href]="socialurl.url"><i class="{{socialurl.icon}}"></i> {{socialurl.name}}</a>
+                <div class="base-button social-url" *ngFor="let socialUrl of this.socialUrls">
+                    <a [href]="socialUrl.url"><i class="{{socialUrl.icon}}"></i> {{socialUrl.name}}</a>
                 </div>
             </div>
         </div>
