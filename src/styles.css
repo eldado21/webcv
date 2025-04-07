@@ -1,7 +1,7 @@
 :root {
     --card-overflow-y: 64px;
-    --primary-color: rgb(46,72,102);
-    --alt-primary-color: rgb(56,121,143);
+    --primary-color: rgb(46, 72, 102);
+    --alt-primary-color: rgb(56, 121, 143);
     --secondary-color: rgb(34, 40, 49);
     --tertiary-color: rgb(49, 54, 63);
     --text-color: rgb(255, 255, 255);
@@ -36,7 +36,17 @@ body {
 }
 
 .base-button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: auto;
     background-color: var(--secondary-color);
+}
+
+.base-button a {
+    text-decoration: none;
+    color: white;
 }
 
 .base-button:hover {
