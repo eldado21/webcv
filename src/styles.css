@@ -1,11 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
 :root {
     --card-overflow-y: 64px;
-    --primary-color: rgba(255,118,0,1);
-    --secondary-color: #222831;
-    --tertiary-color: #31363F;
-    --text-color: white;
-    /* --mobile-size: 768px; */
+    --primary-color: rgb(0, 38, 115);
+    --alt-primary-color: rgb(18, 22, 36);
+    --secondary-color: rgb(34, 40, 49);
+    --tertiary-color: rgb(49, 54, 63);
+    --text-color: rgb(255, 255, 255);
 }
 
 html,
