@@ -5,10 +5,12 @@ import { Injectable } from '@angular/core';
 })
 
 export class ContentService {
-  readonly baseUrl: string = "http://localhost:10000/"
+  readonly jsonFile: string = "/assets/db.json"
 
   async getContent(endpoint: string): Promise<any> {
-    const data = await fetch(this.baseUrl + endpoint);
-    return (await data.json()) ?? [];
+    return await fetch(this.jsonFile)
+      .then((res) => res.json())
+      .then((json) => json[endpoint])
+      .catch((_) => []);
   }
 }
