@@ -3,7 +3,7 @@
         "name": "Damian",
         "jobTitle": "Software engineer",
         "country": "Switzerland",
-        "imageUrl": "webcv/assets/portrait.png"
+        "imageUrl": "assets/portrait.png"
     },
     "experiences": [
         {
@@ -11,7 +11,7 @@
             "title": "Software Developer & Teaching Assistant",
             "at": "Haute école du paysage, d'ingénierie et d'architecture de Genève",
             "atUrl": "https://www.hesge.ch/hepia/",
-            "imageUrl": "webcv/assets/hepia.png",
+            "imageUrl": "assets/hepia.png",
             "country": "Switzerland",
             "startDate": "November 2023",
             "endDate": "Present",
@@ -22,7 +22,7 @@
             "title": "Webmaster & IT Assistant",
             "at": "Amivie",
             "atUrl": "",
-            "imageUrl": "webcv/assets/amivie.png",
+            "imageUrl": "assets/amivie.png",
             "country": "Switzerland",
             "startDate": "June 2020",
             "endDate": "July 2020",
@@ -33,7 +33,7 @@
             "title": "UI Developer",
             "at": "Khéops Technologies SA",
             "atUrl": "",
-            "imageUrl": "webcv/assets/kheops.png",
+            "imageUrl": "assets/kheops.png",
             "country": "Switzerland",
             "startDate": "August 2019",
             "endDate": "October 2019",
@@ -45,7 +45,7 @@
             "id": 1,
             "title": "Bachelor of Science HES-SO in Informatics and Communication Systems",
             "at": "Haute école du paysage, d'ingénierie et d'architecture de Genève",
-            "imageUrl": "webcv/assets/hepia.png",
+            "imageUrl": "assets/hepia.png",
             "atUrl": "https://www.hesge.ch/hepia/",
             "country": "Switzerland",
             "startDate": "2020",
@@ -57,7 +57,7 @@
             "title": "Advanced Diploma in Business IT (ES)",
             "at": "École supérieure d'informatique de gestion",
             "atUrl": "https://www.hesge.ch/hepia/",
-            "imageUrl": "webcv/assets/gva.png",
+            "imageUrl": "assets/gva.png",
             "country": "Switzerland",
             "startDate": "2018",
             "endDate": "2020",
@@ -76,7 +76,7 @@
                 "Aseprite"
             ],
             "description": "A 2D video game created as a final diploma project at ESIG. It draws strong inspiration from a mustached plumber whose name shall remain undisclosed.",
-            "imageUrl": "webcv/assets/rbr.png"
+            "imageUrl": "assets/rbr.png"
         },
         {
             "id": 2,
@@ -87,7 +87,7 @@
                 "C"
             ],
             "description": "A simulation of the physical behavior of celestial entities orbiting around another entity that is much more massive than them.",
-            "imageUrl": "webcv/assets/galaxy.gif"
+            "imageUrl": "assets/galaxy.gif"
         },
         {
             "id": 3,
@@ -98,7 +98,7 @@
                 "C"
             ],
             "description": "A simulation the interaction between positively and negatively charged particles.",
-            "imageUrl": "webcv/assets/ef.png"
+            "imageUrl": "assets/ef.png"
         },
         {
             "id": 4,
@@ -112,7 +112,7 @@
                 "CSS"
             ],
             "description": "A webapp displaying a canvas where you can write a digit by hand and ask to the app what's its guess on it.",
-            "imageUrl": "webcv/assets/ocr.png"
+            "imageUrl": "assets/ocr.png"
         },
         {
             "id": 5,
@@ -124,7 +124,7 @@
                 "ML"
             ],
             "description": "Exploring AI to assist visually impaired individuals by detecting objects in real time and describing them through synthetic voice. Several have been tested to achieve accurate detection and distance estimation, enhancing safety and independence.",
-            "imageUrl": "webcv/assets/bachelor.png"
+            "imageUrl": "assets/bachelor.png"
         }
     ],
     "skills": {
@@ -176,19 +176,19 @@
             "title": "Clean Coder",
             "author": "Robert C. Martin",
             "year": 2011,
-            "imgUrl": "webcv/assets/clean-coder.png"
+            "imgUrl": "assets/clean-coder.png"
         },
         {
             "title": "Fluent Python (2nd edition)",
             "author": "Luciano Ramalho",
             "year": 2022,
-            "imgUrl": "webcv/assets/fluent-python.png"
+            "imgUrl": "assets/fluent-python.png"
         },
         {
             "title": "Functional Programming in Java",
             "author": "Pierre-Yves Saumont",
             "year": 2017,
-            "imgUrl": "webcv/assets/funcprog-java.png"
+            "imgUrl": "assets/funcprog-java.png"
         }
     ],
     "socialUrls": [
