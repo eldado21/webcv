@@ -46,7 +46,7 @@ header {
     position: absolute;
     background: rgb(11, 49, 16);
     filter: opacity(15%);
-    mask-image: url("webcv/assets/topography.svg");
+    mask-image: url("/webcv/assets/topography.svg");
     width: 100%;
     height: 100%;
     border-radius: 10px;
