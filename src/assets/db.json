@@ -199,7 +199,7 @@
         },
         {
             "name": "contact me !",
-            "icon": "fa-brands fa-enveloppe",
+            "icon": "fa-solid fa-envelope",
             "url": "mailto:bkt1206@gmail.com"
         }
     ]
