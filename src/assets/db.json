@@ -198,9 +198,9 @@
             "url": "https://github.com/eldado21"
         },
         {
-            "name": "linkedin",
-            "icon": "fa-brands fa-linkedin",
-            "url": "https://www.linkedin.com/in/damian-boquete/"
+            "name": "contact me !",
+            "icon": "fa-brands fa-enveloppe",
+            "url": "mailto:bkt1206@gmail.com"
         }
     ]
 }
