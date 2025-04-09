@@ -1,6 +1,5 @@
 #readings-container {
     flex-direction: column;
-    width: 100%;
 }
 
 #readings-list-wrapper {
@@ -9,8 +8,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;
-    gap: 50px;
+    margin-top: 20px;
 }
 
 .reading-item-container {
@@ -22,7 +20,7 @@
 }
 
 h3 {
-    margin-bottom: 0px;
+    margin-top: 15px;
     text-align: center;
 }
 

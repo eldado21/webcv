@@ -8,13 +8,15 @@ main {
 
 h2 {
     font-size: 30pt;
+    margin-bottom: 25px;
 }
 
 .item-section {
     width: 70vw;
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
     color: white;
     margin-bottom: 25px;
     display: flex;
