@@ -27,8 +27,6 @@ export class HeaderComponent {
     rotateX(${tiltY}deg)
     rotateY(${tiltX}deg)
     `;
-
-    // element.style.setProperty("--gradient-opacity", pro);
   }
 
   reset(element: HTMLDivElement) {
