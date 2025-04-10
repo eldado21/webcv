@@ -1,11 +1,11 @@
 <header *ngIf="owner">
     <div id="tilt-zone" (mousemove)="tilt(card, $event)" (mouseleave)="reset(card)">
         <div id="card-container">
-            <div id="card-background"></div>
             <div #card id="card" class="card-base-container">
+                <div id="card-background"></div>
                 <div id="card-content">
                     <img [src]="owner.imageUrl" alt="Me !">
-
+                    
                     <div id="header-informations">
                         <div id="name">
                             <p class="info-title">first name</p>
