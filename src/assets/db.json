@@ -15,13 +15,13 @@
             "country": "Switzerland",
             "startDate": "November 2023",
             "endDate": "Present",
-            "description": "Responsible for developing and optimizing machine learning algorithms. Designing user interfaces to ease program configuration. Writing scientific papers. Assisting and mentoring students."
+            "description": "Responsible for developing and optimizing machine learning algorithms. Designing user interfaces to ease program configuration. Writing scientific papers. Assisting and mentoring students in their course work and projects."
         },
         {
             "id": 2,
             "title": "Webmaster & IT Assistant",
             "at": "Amivie",
-            "atUrl": "",
+            "atUrl": "https://amivie.ch/",
             "imageUrl": "assets/amivie.png",
             "country": "Switzerland",
             "startDate": "June 2020",
@@ -32,7 +32,7 @@
             "id": 3,
             "title": "UI Developer",
             "at": "Khéops Technologies SA",
-            "atUrl": "",
+            "atUrl": "https://www.kheops.ch/en/home/",
             "imageUrl": "assets/kheops.png",
             "country": "Switzerland",
             "startDate": "August 2019",
