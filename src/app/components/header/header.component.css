@@ -78,6 +78,7 @@ img {
     color: white;
     font-size: 15pt;
     font-weight: 300;
+    z-index: 1;
 }
 
 .info-title {
