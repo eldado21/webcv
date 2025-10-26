@@ -67,6 +67,31 @@
     "projects": [
         {
             "id": 1,
+            "title": "This Online CV",
+            "url": "https://github.com/eldado21/webcv",
+            "creationDate": "2025",
+            "techStack": [
+                "Angular",
+                "TypeScript"
+            ],
+            "description": "My online CV, currently displayed on your screen ;).",
+            "imageUrl": "assets/webcv.png"
+        },
+        {
+            "id": 2,
+            "title": "PRE-ACT",
+            "url": "https://preact-horizoneurope.eu/",
+            "creationDate": "2025",
+            "techStack": [
+                "Python",
+                "C++",
+                "OpenMP"
+            ],
+            "description": "European consortium evaluating AI for predicting the risk of radiotherapy side effects. I took part in the development and deployment of the AI model.",
+            "imageUrl": "assets/preact.png"
+        },
+        {
+            "id": 3,
             "title": "Run Billy, Run !!!",
             "url": "https://github.com/eldado21/Run-Billy-Run",
             "creationDate": "2020",
@@ -79,7 +104,7 @@
             "imageUrl": "assets/rbr.png"
         },
         {
-            "id": 2,
+            "id": 4,
             "title": "Simple galaxy sim",
             "url": "https://github.com/eldado21/Galaxy",
             "creationDate": "2021",
@@ -90,7 +115,7 @@
             "imageUrl": "assets/galaxy.gif"
         },
         {
-            "id": 3,
+            "id": 5,
             "title": "Electric field sim",
             "url": "https://github.com/eldado21/ElectricField",
             "creationDate": "2021",
@@ -101,7 +126,7 @@
             "imageUrl": "assets/ef.png"
         },
         {
-            "id": 4,
+            "id": 6,
             "title": "MNIST based OCR",
             "url": "https://github.com/eldado21/OCR",
             "creationDate": "2021",
@@ -115,7 +140,7 @@
             "imageUrl": "assets/ocr.png"
         },
         {
-            "id": 5,
+            "id": 7,
             "title": "Bachelor thesis",
             "url": "https://github.com/eldado21/bachelor-project",
             "creationDate": "2021",
@@ -168,7 +193,7 @@
         "softSkills": [
             "Adaptable",
             "Team player",
-            "Self-taching"
+            "Autodidactism"
         ]
     },
     "readings": [
