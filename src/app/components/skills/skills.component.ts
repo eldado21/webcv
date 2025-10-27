@@ -23,9 +23,12 @@ export class SkillsComponent {
     this.contentService.getContent("skills")
       .then((data) => {
         this.languages = data.languages;
-        this.techStack = data.techStack;
         this.softSkills = data.softSkills;
+        this.techStack = data.techStack;
+
+        this.techStack.sort((t1, t2) => t2.iconSizeMult - t1.iconSizeMult);
       });
+
   }
 
   // returns a translation of the CEFR level to a percentage (ex: C2 = 100% of language knowledge)

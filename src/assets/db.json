@@ -172,23 +172,62 @@
             }
         ],
         "techStack": [
-            "Python",
-            "JavaScript",
-            "TypeScript",
-            "C",
-            "Java",
-            "Dart",
-            "HTML",
-            "CSS",
-            "SQL",
-            "Angular",
-            "Flutter",
-            "MKDocs",
-            "Mermaid",
-            "Grafana",
-            "Aseprite",
-            "Linux",
-            "Windows"
+            {
+                "name": "Python",
+                "iconSizeMult": 1.0
+            },
+            {
+                "name": "JavaScript",
+                "iconSizeMult": 0.65
+            },
+            {
+                "name": "TypeScript",
+                "iconSizeMult": 0.65
+            },
+            {
+                "name": "C",
+                "iconSizeMult": 1.0
+            },
+            {
+                "name": "Java",
+                "iconSizeMult": 1.0
+            },
+            {
+                "name": "Dart",
+                "iconSizeMult": 0.4
+            },
+            {
+                "name": "HTML5",
+                "iconSizeMult": 0.65
+            },
+            {
+                "name": "CSS3",
+                "iconSizeMult": 0.65
+            },
+            {
+                "name": "sqlite",
+                "iconSizeMult": 0.65
+            },
+            {
+                "name": "Angular",
+                "iconSizeMult": 0.4
+            },
+            {
+                "name": "Flutter",
+                "iconSizeMult": 0.4
+            },
+            {
+                "name": "Grafana",
+                "iconSizeMult": 0.4
+            },
+            {
+                "name": "Linux",
+                "iconSizeMult": 1.0
+            },
+            {
+                "name": "Windows8",
+                "iconSizeMult": 0.65
+            }
         ],
         "softSkills": [
             "Adaptable",

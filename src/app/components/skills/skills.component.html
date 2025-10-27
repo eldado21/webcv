@@ -38,7 +38,11 @@
             <h2>Tech stack</h2>
             <div id="techstack-list-wrapper" class="wrapper">
                 <div id="techstack-item-container" class="item-container" *ngFor="let tech of this.techStack">
-                    <div class="technology">{{tech}}</div>
+                    <div class="technology">
+                        <i [style.font-size.pt]="tech.iconSizeMult*80"
+                            class="devicon-{{ tech.name.toLowerCase() }}-plain colored"
+                            [title]="tech.name"></i>
+                    </div>
                 </div>
             </div>
         </div>
