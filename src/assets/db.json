@@ -69,7 +69,7 @@
             "id": 1,
             "title": "This Online CV",
             "url": "https://github.com/eldado21/webcv",
-            "creationDate": "2025",
+            "creationDate": 2025,
             "techStack": [
                 "Angular",
                 "TypeScript"
@@ -81,7 +81,7 @@
             "id": 2,
             "title": "PRE-ACT",
             "url": "https://preact-horizoneurope.eu/",
-            "creationDate": "2025",
+            "creationDate": 2025,
             "techStack": [
                 "Python",
                 "C++",
@@ -94,7 +94,7 @@
             "id": 3,
             "title": "Run Billy, Run !!!",
             "url": "https://github.com/eldado21/Run-Billy-Run",
-            "creationDate": "2020",
+            "creationDate": 2020,
             "techStack": [
                 "Unity",
                 "C#",
@@ -107,7 +107,7 @@
             "id": 4,
             "title": "Simple galaxy sim",
             "url": "https://github.com/eldado21/Galaxy",
-            "creationDate": "2021",
+            "creationDate": 2021,
             "techStack": [
                 "C"
             ],
@@ -118,7 +118,7 @@
             "id": 5,
             "title": "Electric field sim",
             "url": "https://github.com/eldado21/ElectricField",
-            "creationDate": "2021",
+            "creationDate": 2021,
             "techStack": [
                 "C"
             ],
@@ -129,7 +129,7 @@
             "id": 6,
             "title": "MNIST based OCR",
             "url": "https://github.com/eldado21/OCR",
-            "creationDate": "2021",
+            "creationDate": 2022,
             "techStack": [
                 "Python",
                 "JavaScript",
@@ -143,7 +143,7 @@
             "id": 7,
             "title": "Bachelor thesis",
             "url": "https://github.com/eldado21/bachelor-project",
-            "creationDate": "2021",
+            "creationDate": 2023,
             "techStack": [
                 "Python",
                 "ML"

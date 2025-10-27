@@ -51,7 +51,7 @@ export class AppComponent {
       .then((formations: Experience[]) => this.formations = formations);
 
     this.contentService.getContent("projects")
-      .then((projects: Project[]) => this.projects = projects);
+      .then((projects: Project[]) => this.projects = projects.sort((p1, p2) => p2.creationDate - p1.creationDate));
 
     this.contentService.getContent("socialUrls")
       .then((socialUrls: SocialUrl[]) => this.socialUrls = socialUrls);
