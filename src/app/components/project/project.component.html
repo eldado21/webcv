@@ -1,4 +1,7 @@
 <div id="project-card" class="card-base-container">
+    <button (click)="toggleGrowth()">
+        <i id="growth-toggle-icon" [ngClass]="growthIcon()"></i>
+    </button>
     <img [src]="project.imageUrl">
     <div class="card-base-content">
         <h2>{{project.title}}</h2>

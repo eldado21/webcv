@@ -8,6 +8,13 @@
     width: 350px;
 }
 
+#growth-toggle-icon {
+    float: right;
+    right: 5px;
+    top: 5px;
+}
+
+
 img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
