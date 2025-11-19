@@ -1,4 +1,5 @@
 .card-base-container {
+    position: relative;
     min-width: unset;
     display: flex;
     flex-direction: column;
@@ -8,12 +9,24 @@
     width: 350px;
 }
 
-#growth-toggle-icon {
-    float: right;
-    right: 5px;
-    top: 5px;
+.growth-toggle-icon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    font-size: 12pt;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
+.growth-toggle-icon:hover {
+    background-color: var(--primary-color);
+    transition: background-color 0.2s;
+}
 
 img {
     border-top-left-radius: 10px;
