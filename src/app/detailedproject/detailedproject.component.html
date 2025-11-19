@@ -1,0 +1,14 @@
+<div class="modal-container">
+    <img [src]="project.imageUrl">
+    <h2>{{project.title}}</h2>
+    <p>{{project.creationDate}}</p>
+    <p class="modal-project-description">{{project.description}}</p>
+
+    <h3>Techstack</h3>
+
+    <div class="techstack-container">
+        <div class="technologies" *ngFor="let tech of project.techStack">
+            <i class="devicon-{{ tech.name.toLowerCase() }}-plain colored" [title]="tech.name"></i>
+        </div>
+    </div>
+</div>
