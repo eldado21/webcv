@@ -1,14 +1,20 @@
 <div class="modal-container">
-    <img [src]="project.imageUrl">
-    <h2>{{project.title}}</h2>
-    <p>{{project.creationDate}}</p>
-    <p class="modal-project-description">{{project.description}}</p>
+    <div class="modal-content">
+        <h1>{{project.title}}</h1>
+        <img class="modal-project-img" [src]="project.imageUrl">
+        <h3>{{project.creationDate}}</h3>
+        <div>
+            <h3>Description</h3>
+            <p class="modal-project-description">{{project.description}}</p>
+        </div>
 
-    <h3>Techstack</h3>
-
-    <div class="techstack-container">
-        <div class="technologies" *ngFor="let tech of project.techStack">
-            <i class="devicon-{{ tech.name.toLowerCase() }}-plain colored" [title]="tech.name"></i>
+        <div>
+            <h3>Techstack</h3>
+            <div class="modal-techstack-container">
+                <div class="technologies" *ngFor="let tech of project.techStack">
+                    <i class="devicon-{{ tech.name.toLowerCase() }}-plain colored" [title]="tech.name"></i>
+                </div>
+            </div>
         </div>
     </div>
 </div>
