@@ -3,7 +3,6 @@ import { ContentService } from './services/content.service';
 import { Experience } from './interfaces/experience';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ProjectComponent } from './components/project/project.component';
-import { CommonModule } from '@angular/common';
 import { Project } from './interfaces/project';
 import { HeaderComponent } from "./components/header/header.component";
 import { Owner } from './interfaces/owner';
@@ -17,7 +16,6 @@ import { FooterComponent } from "./components/footer/footer.component";
 @Component({
   selector: 'app-root',
   imports: [
-    CommonModule,
     ExperienceComponent,
     ProjectComponent,
     HeaderComponent,

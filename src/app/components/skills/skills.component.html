@@ -4,17 +4,19 @@
             <div class="card-base-content">
                 <h2>Languages</h2>
                 <div id="languages-list-wrapper" class="wrapper">
-                    <div id="languages-item-container" class="item-container" *ngFor="let language of this.languages">
-                        <div class="language">{{language.name}}</div>
-                        <div class="skillbar-container">
-                            <div class="background-bar">
-                                <div class="foreground-bar"
-                                    [style.width.px]="(100-levelToPercent(language))/100 * 150 + 11">
+                    @for (language of this.languages; track language) {
+                        <div id="languages-item-container" class="item-container">
+                            <div class="language">{{language.name}}</div>
+                            <div class="skillbar-container">
+                                <div class="background-bar">
+                                    <div class="foreground-bar"
+                                        [style.width.px]="(100-levelToPercent(language))/100 * 150 + 11">
+                                    </div>
                                 </div>
+                                <div class="level">{{language.level}}</div>
                             </div>
-                            <div class="level">{{language.level}}</div>
                         </div>
-                    </div>
+                    }
                 </div>
             </div>
         </div>
@@ -24,10 +26,11 @@
             <div class="card-base-content">
                 <h2>Soft skills</h2>
                 <div id="softskills-list-wrapper" class="wrapper">
-                    <div id="softskills-item-container" class="item-container"
-                        *ngFor="let softSkill of this.softSkills">
-                        <div class="softskill">{{softSkill}}</div>
-                    </div>
+                    @for (softSkill of this.softSkills; track softSkill) {
+                        <div id="softskills-item-container" class="item-container">
+                            <div class="softskill">{{softSkill}}</div>
+                        </div>
+                    }
                 </div>
             </div>
         </div>
@@ -37,13 +40,15 @@
         <div class="card-base-content">
             <h2>Tech stack</h2>
             <div id="techstack-list-wrapper" class="wrapper">
-                <div id="techstack-item-container" class="item-container" *ngFor="let tech of this.techStack">
-                    <div class="technology">
-                        <i [style.font-size.pt]="tech.iconSizeMult*80"
-                            class="devicon-{{ tech.name.toLowerCase() }}-plain colored"
-                            [title]="tech.name"></i>
+                @for (tech of this.techStack; track tech) {
+                    <div id="techstack-item-container" class="item-container">
+                        <div class="technology">
+                            <i [style.font-size.pt]="tech.iconSizeMult*80"
+                                class="devicon-{{ tech.name.toLowerCase() }}-plain colored"
+                                [title]="tech.name"></i>
+                        </div>
                     </div>
-                </div>
+                }
             </div>
         </div>
     </div>

@@ -1,6 +1,8 @@
-<header *ngIf="owner">
-    <div id="header-content">
-        <h1><{{owner.name}}></h1>
-        <h2><span>{{owner.jobTitle}} </span>based in <span>{{owner.country}}</span></h2>
-    </div>
-</header>
+@if (owner) {
+    <header>
+        <div id="header-content">
+            <h1><{{owner.name}}></h1>
+            <h2><span>{{owner.jobTitle}} </span>based in <span>{{owner.country}}</span></h2>
+        </div>
+    </header>
+}

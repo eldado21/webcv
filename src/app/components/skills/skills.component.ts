@@ -1,13 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { ContentService } from '../../services/content.service';
-import { NgForOf } from '@angular/common';
 import { Language } from '../../interfaces/language';
 import { Technology } from '../../interfaces/technology';
 import { SoftSkill } from '../../interfaces/soft-skill';
 
 @Component({
   selector: 'app-skills',
-  imports: [NgForOf],
   providers: [],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'
