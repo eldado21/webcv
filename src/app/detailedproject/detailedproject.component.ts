@@ -1,21 +1,27 @@
-import { Component, Inject } from '@angular/core';
+import { Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Project } from '../interfaces/project';
-import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
-import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-detailedproject',
-  imports: [NgFor],
   templateUrl: './detailedproject.component.html',
   styleUrl: './detailedproject.component.css'
 })
 export class DetailedProjectComponent {
-  project: Project;
-  dialogRef: MatDialogRef<DetailedProjectComponent>;
+  @Input() project!: Project;
+  @ViewChild('dialog') dialog!: ElementRef<HTMLDialogElement>;
 
+  open(): void {
+    this.dialog.nativeElement.showModal();
+  }
 
-  constructor(@Inject(MAT_DIALOG_DATA) project: Project, dialogRef: MatDialogRef<DetailedProjectComponent>){
-    this.project = project;
-    this.dialogRef = dialogRef;
+  close(): void {
+    this.dialog.nativeElement.close();
+  }
+
+  // a click on the backdrop targets the <dialog> element itself, not its content
+  onDialogClick(event: MouseEvent): void {
+    if (event.target === this.dialog.nativeElement) {
+      this.close();
+    }
   }
 }

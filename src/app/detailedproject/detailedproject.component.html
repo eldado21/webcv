@@ -1,20 +1,35 @@
-<div class="modal-container">
-    <div class="modal-content">
+<dialog #dialog [attr.aria-label]="project.title" (click)="onDialogClick($event)">
+    <button class="icon-button modal-close" aria-label="Close" (click)="close()">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <header class="modal-header">
         <h1>{{project.title}}</h1>
-        <img class="modal-project-img" [src]="project.imageUrl">
-        <h3>{{project.creationDate}}</h3>
-        <div>
+        <p class="modal-year">{{project.creationDate}}</p>
+    </header>
+
+    <div class="modal-body">
+        <img class="modal-project-img" [src]="project.imageUrl" [alt]="project.title">
+
+        <section class="modal-section">
             <h3>Description</h3>
             <p class="modal-project-description">{{project.description}}</p>
-        </div>
+        </section>
 
-        <div>
-            <h3>Techstack</h3>
+        <section class="modal-section">
+            <h3>Tech stack</h3>
             <div class="modal-techstack-content">
-                <div class="technologies" *ngFor="let tech of project.techStack">
-                    <i class="devicon-{{ tech.name.toLowerCase() }}-plain colored" [title]="tech.name"></i>
-                </div>
+                @for (tech of project.techStack; track tech) {
+                    <div class="technology-tile">
+                        <i class="devicon-{{ tech.name.toLowerCase() }}-plain colored"></i>
+                        <span>{{tech.name}}</span>
+                    </div>
+                }
             </div>
+        </section>
+
+        <div class="base-button modal-link">
+            <a [href]="project.url" target="_blank" rel="noopener noreferrer">Open project</a>
         </div>
     </div>
-</div>
+</dialog>

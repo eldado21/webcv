@@ -46,6 +46,28 @@ body {
     border-radius: 20px;
     width: auto;
     background-color: var(--secondary-color);
+    font: inherit;
+    cursor: pointer;
+}
+
+.icon-button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    font-size: 12pt;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    background-color: var(--primary-color);
+    transition: background-color 0.2s;
+}
+
+body:has(dialog[open]) {
+    overflow: hidden;
 }
 
 .base-button a {
