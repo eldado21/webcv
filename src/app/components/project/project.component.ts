@@ -1,5 +1,5 @@
-import { Component, Input, signal } from '@angular/core';
-import { MatDialog, MatDialogRef } from '@angular/material/dialog';
+import { Component, Input } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { Project } from '../../interfaces/project';
 import { DetailedProjectComponent } from '../../detailedproject/detailedproject.component';
 
@@ -12,7 +12,6 @@ import { DetailedProjectComponent } from '../../detailedproject/detailedproject.
 export class ProjectComponent {
   @Input() project!: Project;
   dialog: MatDialog = new MatDialog();
-  growthIcon = signal("fa-solid fa-maximize");
 
   openModal(): void {
     let refDialog = this.dialog.open(DetailedProjectComponent, {data: this.project});

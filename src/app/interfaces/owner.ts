@@ -1,5 +1,3 @@
-import { SocialUrl } from "./social-url";
-
 export interface Owner {
     name: string;
     jobTitle: string;

@@ -17,13 +17,5 @@ export class DetailedProjectComponent {
   constructor(@Inject(MAT_DIALOG_DATA) project: Project, dialogRef: MatDialogRef<DetailedProjectComponent>){
     this.project = project;
     this.dialogRef = dialogRef;
-
-    console.log(project.techStack)
-
-    for (let tech in project.techStack) {
-      console.log(tech);
-    }
-    
-    
   }
 }

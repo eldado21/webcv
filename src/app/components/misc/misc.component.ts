@@ -1,7 +1,6 @@
-import { Component, inject, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Reading } from '../../interfaces/reading';
 import { NgFor } from '@angular/common';
-import { ContentService } from '../../services/content.service';
 
 @Component({
   selector: 'app-misc',
@@ -12,8 +11,4 @@ import { ContentService } from '../../services/content.service';
 
 export class MiscComponent {
   @Input() readings!: Reading[];
-
-  constructor() {
-
-  }
 }
