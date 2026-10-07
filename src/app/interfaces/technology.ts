@@ -1,4 +1,4 @@
 export interface Technology {
-    name: String;
+    name: string;
     iconSizeMult : number;
 }
