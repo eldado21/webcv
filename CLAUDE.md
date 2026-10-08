@@ -6,7 +6,6 @@ Damian's personal web CV. Static Angular 20 SPA (standalone components, no backe
 - `npm install`: install dependencies
 - `npm start` (`ng serve`): dev server
 - `npm run build`: production build, output goes to `docs/` (gitignored)
-- `ng deploy`: publish to GitHub Pages via `angular-cli-ghpages`
 
 ## Architecture
 - All CV content lives in `src/assets/db.json` (owner, experiences, formations, projects, skills, readings, socialUrls). `ContentService` (`src/app/services/content.service.ts`) fetches that file and returns one top-level key per call.
@@ -26,6 +25,7 @@ Damian's personal web CV. Static Angular 20 SPA (standalone components, no backe
 - Keep the session human-paced: explain what you intend to do, make small steps, and let the user review before moving on.
 - When there is a better way to use Claude Code (prompts, skills, slash commands, workflow), tell the user.
 
-## Known state
-- `angular.json` has a `deploy` target for `angular-cli-ghpages`, which is not in `package.json`, so `ng deploy` does not work from a clean install.
-- The viewport meta tag is commented out in `src/index.html`, so the site is not mobile friendly yet.
+## Deployment
+- `.github/workflows/deploy.yml` builds on every push and pull request (`npm ci`, `npm audit --omit=dev --audit-level=high`, `npm run build`) and deploys `docs/browser` to GitHub Pages on pushes to `main`. Pages source is set to "GitHub Actions" in the repository settings.
+- No manual deploy step and no `ng deploy`. The build uses a relative `<base href=".">`, so it works under the `/webcv/` path.
+- The audit gate fails the build on high-severity vulnerabilities in production dependencies.
