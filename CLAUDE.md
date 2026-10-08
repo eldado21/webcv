@@ -6,7 +6,6 @@ Damian's personal web CV. Static Angular 20 SPA (standalone components, no backe
 - `npm install`: install dependencies
 - `npm start` (`ng serve`): dev server
 - `npm run build`: production build, output goes to `docs/` (gitignored)
-- `npm test`: Karma/Jasmine (currently no spec files exist)
 - `ng deploy`: publish to GitHub Pages via `angular-cli-ghpages`
 
 ## Architecture
