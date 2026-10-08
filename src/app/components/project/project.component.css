@@ -1,3 +1,8 @@
+:host {
+    display: block;
+    width: min(350px, 100%);
+}
+
 .card-base-container {
     position: relative;
     min-width: unset;
@@ -6,7 +11,7 @@
     max-height: 600px;
     height: 100%;
     margin: 0;
-    width: 350px;
+    width: 100%;
 }
 
 .growth-toggle-icon {

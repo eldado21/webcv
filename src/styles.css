@@ -70,6 +70,19 @@ body:has(dialog[open]) {
     overflow: hidden;
 }
 
+@media screen and (max-width: 768px) {
+    .card-base-content {
+        margin: 15px 20px;
+    }
+}
+
+@media (pointer: coarse) {
+    .icon-button {
+        width: 44px;
+        height: 44px;
+    }
+}
+
 .base-button a {
     text-decoration: none;
     color: white;

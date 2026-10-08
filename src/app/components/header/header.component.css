@@ -36,3 +36,23 @@ header {
     font-weight: 200;
     font-size: 12pt;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        min-height: 160px;
+    }
+
+    #header-content {
+        width: calc(100% - 32px);
+        padding: 24px 0;
+    }
+
+    #header-content h1 {
+        font-size: 36pt;
+    }
+
+    #header-content h2 {
+        font-size: 14pt;
+    }
+}

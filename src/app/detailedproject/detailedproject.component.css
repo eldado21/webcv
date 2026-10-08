@@ -119,6 +119,20 @@ dialog::backdrop {
     font-size: 14pt;
 }
 
+@media screen and (max-width: 768px) {
+    .modal-header {
+        padding: 28px 52px 0;
+    }
+
+    .modal-header h1 {
+        font-size: 20pt;
+    }
+
+    .modal-body {
+        padding: 16px 20px 24px;
+    }
+}
+
 @media (max-height: 700px) {
     .modal-header {
         padding-top: 24px;
@@ -134,7 +148,7 @@ dialog::backdrop {
     }
 
     .modal-body {
-        padding: 16px 32px 24px;
+        padding-block: 16px 24px;
         row-gap: 16px;
     }
 

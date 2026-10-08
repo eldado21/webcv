@@ -31,7 +31,12 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-    main {
-        padding-left: 16px;
+    h2 {
+        font-size: 22pt;
+        margin-bottom: 16px;
+    }
+
+    .item-section {
+        width: calc(100% - 32px);
     }
 }

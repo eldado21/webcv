@@ -42,3 +42,20 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    #footer-container {
+        width: calc(100% - 32px);
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 0;
+    }
+
+    #footer-container #sign {
+        font-size: 40pt;
+    }
+
+    #footer-container #copyright {
+        font-size: 14pt;
+    }
+}
