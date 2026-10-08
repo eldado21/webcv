@@ -2,7 +2,7 @@
     <div class="card-base-content">
         <h2>Readings</h2>
         <div id="readings-list-wrapper">
-            @for (reading of readings; track reading) {
+            @for (reading of readings; track reading.title) {
                 <div class="reading-item-container">
                     <img [src]="reading.imgUrl" alt="">
                     <h3>{{reading.title}}</h3>

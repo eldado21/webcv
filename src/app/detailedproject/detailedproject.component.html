@@ -19,7 +19,7 @@
         <section class="modal-section">
             <h3>Tech stack</h3>
             <div class="modal-techstack-content">
-                @for (tech of project.techStack; track tech) {
+                @for (tech of project.techStack; track tech.name) {
                     <div class="technology-tile">
                         <i class="devicon-{{ tech.name.toLowerCase() }}-plain colored"></i>
                         <span>{{tech.name}}</span>

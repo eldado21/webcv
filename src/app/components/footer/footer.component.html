@@ -9,7 +9,7 @@
         <div id="copyright">
             <p><i class="fa-regular fa-copyright"></i> {{this.year}} Damian</p>
             <div id="social-urls">
-                @for (socialUrl of this.socialUrls; track socialUrl) {
+                @for (socialUrl of this.socialUrls; track socialUrl.name) {
                     <div class="base-button social-url">
                         <a [href]="socialUrl.url"><i class="{{socialUrl.icon}}"></i> {{socialUrl.name}}</a>
                     </div>
