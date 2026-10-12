@@ -1,6 +1,6 @@
 <div class="card-base-container">
     <div class="card-base-content">
-        <h2>{{experience.title}}</h2>
+        <h2><a [href]="experience.atUrl" target="_blank" rel="noopener noreferrer">{{experience.title}}</a></h2>
         <h3><i>{{experience.at}}</i></h3>
         <p id="dates">{{experience.startDate}} - {{experience.endDate}}</p>
         <p>{{experience.description}}</p>
