@@ -12,7 +12,8 @@ Damian's personal web CV. Static Angular 20 SPA (standalone components, no backe
 - `src/app/detailedproject/` is the project details modal, a native `<dialog>` (`showModal()`). Each project card embeds one and opens it through a template reference. No Angular Material or CDK.
 - Types for the JSON live in `src/app/interfaces/`. Keep them in sync with `db.json`.
 - Plain hand-written CSS, one file per component. Colour tokens and shared classes (`.card-base-container`, `.base-button`, `.icon-button`) are in `src/styles.css`. Mobile styles are `max-width: 768px` media queries at the end of each file.
-- Tech icons use the class `devicon-<name lowercased>-plain` (Devicon, loaded from a CDN in `src/index.html`), so a technology `name` in `db.json` must match a Devicon name.
+- Tech icons are rendered by `app-tech-icon`. By default the class is `devicon-<name lowercased>-plain colored` (Devicon, loaded from a CDN in `src/index.html`). A technology in `db.json` can override it with `icon` (CSS classes, also FontAwesome) or `iconUrl` (a single-colour SVG in `src/assets/icons`, drawn in `iconColor`). Every icon should be coloured: Devicon classes with `colored` use their own brand colour, everything else needs an `iconColor`. Brand colours too dark for the dark background (Unity, C++, C#, Next.js, PostgreSQL) use an `icon` without `colored` plus a lightened `iconColor`.
+- A project's `url` is optional; without it the dialog shows no link (used for private repos).
 - The language skill bars are tied to a constant 150 in `skills.component.html` and in `skills.component.css`; change both together.
 
 ## Conventions
