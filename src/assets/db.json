@@ -95,11 +95,15 @@
                 },
                 {
                     "name": "C++",
-                    "iconSizeMult": 1.0
+                    "iconSizeMult": 1.0,
+                    "icon": "devicon-cplusplus-plain",
+                    "iconColor": "#337AB0"
                 },
                 {
                     "name": "OpenMP",
-                    "iconSizeMult": 1.0
+                    "iconSizeMult": 1.0,
+                    "icon": "fa-solid fa-microchip",
+                    "iconColor": "#FFB937"
                 }
             ],
             "description": "European consortium evaluating AI for predicting the risk of radiotherapy side effects. I took part in the development and deployment of the AI model.",
@@ -113,15 +117,21 @@
             "techStack": [
                 {
                     "name": "Unity",
-                    "iconSizeMult": 1.0
+                    "iconSizeMult": 1.0,
+                    "icon": "devicon-unity-plain",
+                    "iconColor": "#FFFFFF"
                 },
                 {
                     "name": "C#",
-                    "iconSizeMult": 1.0
+                    "iconSizeMult": 1.0,
+                    "icon": "devicon-csharp-plain",
+                    "iconColor": "#9564A2"
                 },
                 {
                     "name": "Aseprite",
-                    "iconSizeMult": 1.0
+                    "iconSizeMult": 1.0,
+                    "iconUrl": "assets/icons/aseprite.svg",
+                    "iconColor": "#7D929E"
                 }
             ],
             "description": "A 2D video game created as a final diploma project at ESIG. It draws strong inspiration from a mustached plumber whose name shall remain undisclosed.",
@@ -135,7 +145,8 @@
             "techStack": [
                 {
                     "name": "C",
-                    "iconSizeMult": 1.0
+                    "iconSizeMult": 1.0,
+                    "icon": "devicon-c-original colored"
                 }
             ],
             "description": "A simulation of the physical behavior of celestial entities orbiting around another entity that is much more massive than them.",
@@ -149,7 +160,8 @@
             "techStack": [
                 {
                     "name": "C",
-                    "iconSizeMult": 1.0
+                    "iconSizeMult": 1.0,
+                    "icon": "devicon-c-original colored"
                 }
             ],
             "description": "A simulation the interaction between positively and negatively charged particles.",
@@ -193,11 +205,60 @@
                 },
                 {
                     "name": "Machine Learning",
-                    "iconSizeMult": 1.0
+                    "iconSizeMult": 1.0,
+                    "icon": "fa-solid fa-brain",
+                    "iconColor": "#FFB937"
                 }
             ],
             "description": "Exploring AI to assist visually impaired individuals by detecting objects in real time and describing them through synthetic voice. Several have been tested to achieve accurate detection and distance estimation, enhancing safety and independence.",
             "imageUrl": "assets/bachelor.png"
+        },
+        {
+            "id": 8,
+            "title": "2.5D RPG",
+            "creationDate": 2026,
+            "techStack": [
+                {
+                    "name": "Godot",
+                    "iconSizeMult": 1.0
+                }
+            ],
+            "description": "A 2.5D action RPG with a 3D world, billboard sprites and an orbit camera. Melee and ranged combat, inventory and equipment, XP and levelling, quests and a merchant.",
+            "imageUrl": "assets/placeholder.svg"
+        },
+        {
+            "id": 9,
+            "title": "Kanji Master",
+            "creationDate": 2026,
+            "techStack": [
+                {
+                    "name": "Next.js",
+                    "iconSizeMult": 1.0,
+                    "icon": "devicon-nextjs-plain",
+                    "iconColor": "#FFFFFF"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconSizeMult": 1.0
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "iconSizeMult": 1.0,
+                    "icon": "devicon-tailwindcss-original colored"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "iconSizeMult": 1.0,
+                    "icon": "devicon-postgresql-plain",
+                    "iconColor": "#4169E1"
+                },
+                {
+                    "name": "Docker",
+                    "iconSizeMult": 1.0
+                }
+            ],
+            "description": "A web app to learn Japanese kanji by JLPT level, built on the KANJIDIC2 dataset, with a detail page for each kanji and a review section.",
+            "imageUrl": "assets/placeholder.svg"
         }
     ],
     "skills": {
@@ -216,7 +277,7 @@
             },
             {
                 "name": "Japanese",
-                "level": "A1"
+                "level": "A2"
             }
         ],
         "techStack": [
@@ -234,11 +295,18 @@
             },
             {
                 "name": "C",
-                "iconSizeMult": 1.0
+                "iconSizeMult": 1.0,
+                "icon": "devicon-c-original colored"
+            },
+            {
+                "name": "C++",
+                "iconSizeMult": 0.65,
+                "icon": "devicon-cplusplus-plain",
+                "iconColor": "#337AB0"
             },
             {
                 "name": "Java",
-                "iconSizeMult": 1.0
+                "iconSizeMult": 0.65
             },
             {
                 "name": "Dart",
@@ -265,16 +333,21 @@
                 "iconSizeMult": 0.4
             },
             {
-                "name": "Grafana",
-                "iconSizeMult": 0.4
+                "name": "Claude",
+                "iconSizeMult": 1.0,
+                "iconUrl": "assets/icons/claude.svg",
+                "iconColor": "#D97757"
             },
             {
                 "name": "Linux",
-                "iconSizeMult": 1.0
+                "iconSizeMult": 1.0,
+                "icon": "devicon-linux-plain",
+                "iconColor": "#000000"
             },
             {
-                "name": "Windows8",
-                "iconSizeMult": 0.65
+                "name": "Windows",
+                "iconSizeMult": 0.65,
+                "icon": "devicon-windows11-original colored"
             }
         ],
         "softSkills": [
@@ -283,6 +356,22 @@
             "Autodidactism"
         ]
     },
+    "badges": [
+        {
+            "title": "Claude Code 101",
+            "issuer": "Claude Academy",
+            "issueDate": "October 7, 2026",
+            "imageUrl": "assets/badge-claude-code-101.png",
+            "url": "https://academy.claude.com/verify/87b868d4322fd7c4049cc5ae1926e347"
+        },
+        {
+            "title": "Claude 101",
+            "issuer": "Claude Academy",
+            "issueDate": "October 2, 2026",
+            "imageUrl": "assets/badge-claude-101.png",
+            "url": "https://academy.claude.com/verify/87abfa320bcb08936e190aafe805f0d2"
+        }
+    ],
     "readings": [
         {
             "title": "Clean Coder",
@@ -295,12 +384,6 @@
             "author": "Luciano Ramalho",
             "year": 2022,
             "imgUrl": "assets/fluent-python.png"
-        },
-        {
-            "title": "Functional Programming in Java",
-            "author": "Pierre-Yves Saumont",
-            "year": 2017,
-            "imgUrl": "assets/funcprog-java.png"
         }
     ],
     "socialUrls": [
