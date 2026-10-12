@@ -11,6 +11,8 @@ import { MiscComponent } from "./components/misc/misc.component";
 import { SocialUrl } from './interfaces/social-url';
 import { Reading } from './interfaces/reading';
 import { FooterComponent } from "./components/footer/footer.component";
+import { BadgesComponent } from './components/badges/badges.component';
+import { Badge } from './interfaces/badge';
 
 
 @Component({
@@ -20,6 +22,7 @@ import { FooterComponent } from "./components/footer/footer.component";
     ProjectComponent,
     HeaderComponent,
     SkillsComponent,
+    BadgesComponent,
     MiscComponent,
     FooterComponent
 ],
@@ -35,6 +38,7 @@ export class AppComponent {
   experiences: Experience[] = [];
   formations: Experience[] = [];
   projects: Project[] = [];
+  badges: Badge[] = [];
   socialUrls: SocialUrl[] = [];
   readings: Reading[] = [];
 
@@ -50,6 +54,9 @@ export class AppComponent {
 
     this.contentService.getContent("projects")
       .then((projects: Project[]) => this.projects = projects.sort((p1, p2) => p2.creationDate - p1.creationDate));
+
+    this.contentService.getContent("badges")
+      .then((badges: Badge[]) => this.badges = badges);
 
     this.contentService.getContent("socialUrls")
       .then((socialUrls: SocialUrl[]) => this.socialUrls = socialUrls);

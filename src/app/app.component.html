@@ -2,13 +2,6 @@
 
 <main>
     <section class="item-section">
-        <h2>Formations</h2>
-        @for (formation of formations; track formation.id) {
-            <app-experience [experience]="formation"></app-experience>
-        }
-    </section>
-
-    <section class="item-section">
         <h2>Experiences</h2>
         @for (experience of experiences; track experience.id) {
             <app-experience [experience]="experience"></app-experience>
@@ -16,8 +9,20 @@
     </section>
 
     <section class="item-section">
+        <h2>Formations</h2>
+        @for (formation of formations; track formation.id) {
+            <app-experience [experience]="formation"></app-experience>
+        }
+    </section>
+
+    <section class="item-section">
         <h2>Skills</h2>
         <app-skills></app-skills>
+    </section>
+
+    <section class="item-section">
+        <h2>Certifications</h2>
+        <app-badges [badges]="badges"></app-badges>
     </section>
 
     <section class="item-section">

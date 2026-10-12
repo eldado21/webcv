@@ -1,0 +1,14 @@
+<div id="badges-wrapper">
+    @for (badge of badges; track badge.title) {
+        <div class="card-base-container badge-card">
+            <img [src]="badge.imageUrl" [alt]="badge.title + ' badge'">
+            <div class="card-base-content">
+                <h3>{{badge.title}}</h3>
+                <p>{{badge.issuer}} · {{badge.issueDate}}</p>
+                <div class="base-button verify-button">
+                    <a [href]="badge.url" target="_blank" rel="noopener noreferrer">Verify</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
