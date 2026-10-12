@@ -43,9 +43,7 @@
                 @for (tech of this.techStack; track tech.name) {
                     <div id="techstack-item-container" class="item-container">
                         <div class="technology">
-                            <i [style.font-size.pt]="tech.iconSizeMult*80"
-                                class="devicon-{{ tech.name.toLowerCase() }}-plain colored"
-                                [title]="tech.name"></i>
+                            <app-tech-icon [tech]="tech" [style.font-size.pt]="tech.iconSizeMult*80"></app-tech-icon>
                         </div>
                     </div>
                 }

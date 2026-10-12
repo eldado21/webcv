@@ -3,9 +3,11 @@ import { ContentService } from '../../services/content.service';
 import { Language } from '../../interfaces/language';
 import { Technology } from '../../interfaces/technology';
 import { SoftSkill } from '../../interfaces/soft-skill';
+import { TechIconComponent } from '../tech-icon/tech-icon.component';
 
 @Component({
   selector: 'app-skills',
+  imports: [TechIconComponent],
   providers: [],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'

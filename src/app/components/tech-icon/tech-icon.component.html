@@ -1,0 +1,5 @@
+@if (tech.iconUrl) {
+    <i class="mask-icon" [style.mask-image]="'url(' + tech.iconUrl + ')'" [title]="tech.name"></i>
+} @else {
+    <i [class]="iconClass" [title]="tech.name"></i>
+}

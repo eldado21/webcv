@@ -1,8 +1,10 @@
 import { Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Project } from '../interfaces/project';
+import { TechIconComponent } from '../components/tech-icon/tech-icon.component';
 
 @Component({
   selector: 'app-detailedproject',
+  imports: [TechIconComponent],
   templateUrl: './detailedproject.component.html',
   styleUrl: './detailedproject.component.css'
 })
